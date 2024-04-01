@@ -1065,7 +1065,7 @@ gdjs.GameCode.GDtrain_9595blurObjects3.length = 0;
 }
 
 
-};gdjs.GameCode.asyncCallback15392596 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback20882900 = function (runtimeScene, asyncObjectsList) {
 
 { //Subevents
 gdjs.GameCode.eventsList0(runtimeScene, asyncObjectsList);} //End of subevents
@@ -1078,7 +1078,7 @@ gdjs.GameCode.eventsList1 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback15392596(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback20882900(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -1086,7 +1086,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), 
 
 
 };gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDcontrol_95959595mobileObjects4Objects = Hashtable.newFrom({"control_mobile": gdjs.GameCode.GDcontrol_9595mobileObjects4});
-gdjs.GameCode.asyncCallback20404740 = function (runtimeScene, asyncObjectsList) {
+gdjs.GameCode.asyncCallback20888188 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("control_mobile"), gdjs.GameCode.GDcontrol_9595mobileObjects5);
 
 {for(var i = 0, len = gdjs.GameCode.GDcontrol_9595mobileObjects5.length ;i < len;++i) {
@@ -1103,7 +1103,7 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.GameCode.GDcontrol_9595mobileObjects4) asyncObjectsList.addObject("control_mobile", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.GameCode.asyncCallback20404740(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.GameCode.asyncCallback20888188(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -1111,7 +1111,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), 
 
 
 };gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDcontrol_95959595webObjects3Objects = Hashtable.newFrom({"control_web": gdjs.GameCode.GDcontrol_9595webObjects3});
-gdjs.GameCode.asyncCallback19829924 = function (runtimeScene, asyncObjectsList) {
+gdjs.GameCode.asyncCallback20888748 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("control_web"), gdjs.GameCode.GDcontrol_9595webObjects4);
 
 {for(var i = 0, len = gdjs.GameCode.GDcontrol_9595webObjects4.length ;i < len;++i) {
@@ -1128,7 +1128,7 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.GameCode.GDcontrol_9595webObjects3) asyncObjectsList.addObject("control_web", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.GameCode.asyncCallback19829924(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.GameCode.asyncCallback20888748(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -1185,7 +1185,7 @@ gdjs.GameCode.eventsList3(runtimeScene, asyncObjectsList);} //End of subevents
 }
 
 
-};gdjs.GameCode.asyncCallback19736204 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback20887924 = function (runtimeScene, asyncObjectsList) {
 
 { //Subevents
 gdjs.GameCode.eventsList4(runtimeScene, asyncObjectsList);} //End of subevents
@@ -1198,7 +1198,7 @@ gdjs.GameCode.eventsList5 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.GameCode.asyncCallback19736204(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.GameCode.asyncCallback20887924(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -1212,7 +1212,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), 
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19393636);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20895116);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "half_second");
@@ -1221,7 +1221,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.GameCode.asyncCallback20216828 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback20893420 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Score_Icon"), gdjs.GameCode.GDScore_9595IconObjects3);
 
 gdjs.copyArray(asyncObjectsList.getObjects("Score_Label"), gdjs.GameCode.GDScore_9595LabelObjects3);
@@ -1246,7 +1246,7 @@ gdjs.GameCode.eventsList7 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.GameCode.GDScore_9595IconObjects2) asyncObjectsList.addObject("Score_Icon", obj);
 for (const obj of gdjs.GameCode.GDScore_9595LabelObjects2) asyncObjectsList.addObject("Score_Label", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.GameCode.asyncCallback20216828(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.GameCode.asyncCallback20893420(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -1260,7 +1260,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20347428);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20896732);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "5_second");
@@ -1384,7 +1384,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.systemInfo.hasTouchScreen(runtimeScene));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20949788);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20879228);
 }
 }
 if (isConditionTrue_0) {
@@ -1409,7 +1409,7 @@ gdjs.copyArray(runtimeScene.getObjects("LeftJoystick"), gdjs.GameCode.GDLeftJoys
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25842556);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20879908);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.GameCode.GDPlayerObjects2);
@@ -1427,7 +1427,7 @@ gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.GameCode.GDPlayerObjects2
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9628052);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20881300);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("CLIP"), gdjs.GameCode.GDCLIPObjects2);
@@ -1514,7 +1514,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1)) == 1;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20365348);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20887852);
 }
 }
 if (isConditionTrue_0) {
@@ -1538,7 +1538,7 @@ gdjs.GameCode.eventsList5(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20238796);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20890396);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "bug_idle");
@@ -1865,7 +1865,7 @@ gdjs.GameCode.eventsList15 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20400852);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20906892);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(gdjs.GameCode.GDBugObjects1, gdjs.GameCode.GDBugObjects2);
@@ -1887,7 +1887,7 @@ gdjs.GameCode.eventsList14(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(7667172);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20909692);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(gdjs.GameCode.GDBugObjects1, gdjs.GameCode.GDBugObjects2);
@@ -2103,7 +2103,7 @@ gdjs.GameCode.eventsList15(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14765820);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20914284);
 }
 if (isConditionTrue_0) {
 }
@@ -2236,7 +2236,7 @@ gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDnpc2Objects3Objects = Hashtable.new
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDnpc1Objects2Objects = Hashtable.newFrom({"npc1": gdjs.GameCode.GDnpc1Objects2});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDialogTextObjects4Objects = Hashtable.newFrom({"DialogText": gdjs.GameCode.GDDialogTextObjects4});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDnpc3Objects4Objects = Hashtable.newFrom({"npc3": gdjs.GameCode.GDnpc3Objects4});
-gdjs.GameCode.asyncCallback10590924 = function (runtimeScene, asyncObjectsList) {
+gdjs.GameCode.asyncCallback20923908 = function (runtimeScene, asyncObjectsList) {
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "2_dialog");
 }}
 gdjs.GameCode.eventsList20 = function(runtimeScene, asyncObjectsList) {
@@ -2248,7 +2248,7 @@ gdjs.GameCode.eventsList20 = function(runtimeScene, asyncObjectsList) {
 const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.GameCode.asyncCallback10590924(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.GameCode.asyncCallback20923908(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -2265,7 +2265,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.getSceneInstancesCount((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDnpc1Objects2Objects) > 0;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18713300);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20923724);
 }
 }
 if (isConditionTrue_0) {
@@ -2281,7 +2281,7 @@ gdjs.GameCode.eventsList20(runtimeScene, asyncObjectsList);} //End of subevents
 }
 
 
-};gdjs.GameCode.asyncCallback23475644 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback20922756 = function (runtimeScene, asyncObjectsList) {
 
 { //Subevents
 gdjs.GameCode.eventsList21(runtimeScene, asyncObjectsList);} //End of subevents
@@ -2296,7 +2296,7 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.GameCode.GDDialogTextObjects3) asyncObjectsList.addObject("DialogText", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.GameCode.asyncCallback23475644(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.GameCode.asyncCallback20922756(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -2313,7 +2313,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.getSceneInstancesCount((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDnpc1Objects2Objects) > 0;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14752628);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20922572);
 }
 }
 if (isConditionTrue_0) {
@@ -2329,7 +2329,7 @@ gdjs.GameCode.eventsList22(runtimeScene, asyncObjectsList);} //End of subevents
 }
 
 
-};gdjs.GameCode.asyncCallback19650868 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback20921436 = function (runtimeScene, asyncObjectsList) {
 
 { //Subevents
 gdjs.GameCode.eventsList23(runtimeScene, asyncObjectsList);} //End of subevents
@@ -2343,7 +2343,7 @@ gdjs.GameCode.eventsList24 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.GameCode.GDDialogTextObjects2) asyncObjectsList.addObject("DialogText", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.GameCode.asyncCallback19650868(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.GameCode.asyncCallback20921436(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -2360,7 +2360,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.getSceneInstancesCount((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.GameCode.mapOfEmptyGDnpc1Objects) > 0;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23437692);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20921140);
 }
 }
 if (isConditionTrue_0) {
@@ -2385,7 +2385,7 @@ gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDPlayerObjects3Objects = Hashtable.n
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDnotebookObjects5Objects = Hashtable.newFrom({"notebook": gdjs.GameCode.GDnotebookObjects5});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDRedExplosionObjects6Objects = Hashtable.newFrom({"RedExplosion": gdjs.GameCode.GDRedExplosionObjects6});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDBugObjects8Objects = Hashtable.newFrom({"Bug": gdjs.GameCode.GDBugObjects8});
-gdjs.GameCode.asyncCallback18760300 = function (runtimeScene, asyncObjectsList) {
+gdjs.GameCode.asyncCallback20932892 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Bug"), gdjs.GameCode.GDBugObjects10);
 
 {for(var i = 0, len = gdjs.GameCode.GDBugObjects10.length ;i < len;++i) {
@@ -2402,7 +2402,7 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.GameCode.GDBugObjects8) asyncObjectsList.addObject("Bug", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.GameCode.asyncCallback18760300(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.GameCode.asyncCallback20932892(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -2410,7 +2410,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2)
 
 
 };gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDBugObjects7Objects = Hashtable.newFrom({"Bug": gdjs.GameCode.GDBugObjects7});
-gdjs.GameCode.asyncCallback15092964 = function (runtimeScene, asyncObjectsList) {
+gdjs.GameCode.asyncCallback20934188 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Bug"), gdjs.GameCode.GDBugObjects8);
 
 {for(var i = 0, len = gdjs.GameCode.GDBugObjects8.length ;i < len;++i) {
@@ -2427,14 +2427,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.GameCode.GDBugObjects7) asyncObjectsList.addObject("Bug", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.8), (runtimeScene) => (gdjs.GameCode.asyncCallback15092964(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.8), (runtimeScene) => (gdjs.GameCode.asyncCallback20934188(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback19092020 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback20933908 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(runtimeScene.getObjects("Bug"), gdjs.GameCode.GDBugObjects7);
 {gdjs.evtTools.object.pickRandomObject((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDBugObjects7Objects);
 }{for(var i = 0, len = gdjs.GameCode.GDBugObjects7.length ;i < len;++i) {
@@ -2453,7 +2453,7 @@ gdjs.GameCode.eventsList28 = function(runtimeScene, asyncObjectsList) {
 const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.8), (runtimeScene) => (gdjs.GameCode.asyncCallback19092020(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.8), (runtimeScene) => (gdjs.GameCode.asyncCallback20933908(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -2472,7 +2472,7 @@ gdjs.GameCode.GDBugObjects8.length = 0;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15349116);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20932820);
 }
 if (isConditionTrue_0)
 {
@@ -2494,7 +2494,7 @@ gdjs.GameCode.eventsList26(runtimeScene, asyncObjectsList);} //Subevents end.
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17409684);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20932692);
 }
 if (isConditionTrue_0) {
 
@@ -2505,7 +2505,7 @@ gdjs.GameCode.eventsList28(runtimeScene, asyncObjectsList);} //End of subevents
 }
 
 
-};gdjs.GameCode.asyncCallback25816756 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback20931716 = function (runtimeScene, asyncObjectsList) {
 gdjs.GameCode.GDRedExplosionObjects6.length = 0;
 
 {gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDRedExplosionObjects6Objects, 225, -(818), "");
@@ -2523,7 +2523,7 @@ gdjs.GameCode.eventsList30 = function(runtimeScene, asyncObjectsList) {
 const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback25816756(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback20931716(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -2537,7 +2537,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), 
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16329364);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20931252);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(asyncObjectsList.getObjects("notebook"), gdjs.GameCode.GDnotebookObjects5);
@@ -2554,7 +2554,7 @@ gdjs.GameCode.eventsList30(runtimeScene, asyncObjectsList);} //End of subevents
 }
 
 
-};gdjs.GameCode.asyncCallback25922900 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback20930772 = function (runtimeScene, asyncObjectsList) {
 
 { //Subevents
 gdjs.GameCode.eventsList31(runtimeScene, asyncObjectsList);} //End of subevents
@@ -2569,14 +2569,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 /* Don't save notebook as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2.5), (runtimeScene) => (gdjs.GameCode.asyncCallback25922900(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2.5), (runtimeScene) => (gdjs.GameCode.asyncCallback20930772(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback19827876 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback20928100 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(runtimeScene.getObjects("broken_glass"), gdjs.GameCode.GDbroken_9595glassObjects4);
 gdjs.copyArray(asyncObjectsList.getObjects("npc1"), gdjs.GameCode.GDnpc1Objects4);
 
@@ -2614,14 +2614,14 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.GameCode.GDnpc1Objects3) asyncObjectsList.addObject("npc1", obj);
 for (const obj of gdjs.GameCode.GDnpc2Objects3) asyncObjectsList.addObject("npc2", obj);
 for (const obj of gdjs.GameCode.GDnpc3Objects3) asyncObjectsList.addObject("npc3", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback19827876(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback20928100(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback23606980 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback20926764 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("DialogText"), gdjs.GameCode.GDDialogTextObjects3);
 
 gdjs.copyArray(asyncObjectsList.getObjects("Player"), gdjs.GameCode.GDPlayerObjects3);
@@ -2655,7 +2655,7 @@ const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.GameCode.GDDialogTextObjects2) asyncObjectsList.addObject("DialogText", obj);
 for (const obj of gdjs.GameCode.GDPlayerObjects2) asyncObjectsList.addObject("Player", obj);
 for (const obj of gdjs.GameCode.GDnotebookObjects2) asyncObjectsList.addObject("notebook", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.GameCode.asyncCallback23606980(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.GameCode.asyncCallback20926764(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -2709,7 +2709,7 @@ gdjs.copyArray(gdjs.GameCode.GDRightJoystickObjects2_1final, gdjs.GameCode.GDRig
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23594604);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20926476);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -2759,7 +2759,7 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDTriggerZoneObjects2.length;i<l;++i) {
 gdjs.GameCode.GDTriggerZoneObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16373956);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20918612);
 }
 }
 }
@@ -2785,7 +2785,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.getSceneInstancesCount((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.GameCode.mapOfEmptyGDnpc1Objects) > 0;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23514340);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20920580);
 }
 }
 }
@@ -2875,7 +2875,7 @@ gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDoorObjects2Objects = Hashtable.new
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDnotebookObjects2Objects = Hashtable.newFrom({"notebook": gdjs.GameCode.GDnotebookObjects2});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDialogTextObjects2Objects = Hashtable.newFrom({"DialogText": gdjs.GameCode.GDDialogTextObjects2});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.GameCode.GDPlayerObjects2});
-gdjs.GameCode.asyncCallback13380692 = function (runtimeScene, asyncObjectsList) {
+gdjs.GameCode.asyncCallback20940444 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("LeftJoystick"), gdjs.GameCode.GDLeftJoystickObjects3);
 
 gdjs.copyArray(asyncObjectsList.getObjects("Player"), gdjs.GameCode.GDPlayerObjects3);
@@ -2897,7 +2897,7 @@ gdjs.GameCode.eventsList37 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.GameCode.GDLeftJoystickObjects2) asyncObjectsList.addObject("LeftJoystick", obj);
 for (const obj of gdjs.GameCode.GDPlayerObjects2) asyncObjectsList.addObject("Player", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.GameCode.asyncCallback13380692(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.GameCode.asyncCallback20940444(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -3078,7 +3078,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1)) == 2;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21566684);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20938164);
 }
 }
 }
@@ -3111,7 +3111,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.distanceTest(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDboxes_95959595tvObjects2Objects, gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDPlayerObjects2Objects, 64, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23593268);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20942196);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -3324,7 +3324,7 @@ gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDBug_95959595bigObjects6Objects = Ha
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDRedExplosionObjects7Objects = Hashtable.newFrom({"RedExplosion": gdjs.GameCode.GDRedExplosionObjects7});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDialogTextObjects10Objects = Hashtable.newFrom({"DialogText": gdjs.GameCode.GDDialogTextObjects10});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDBug_95959595bigObjects10Objects = Hashtable.newFrom({"Bug_big": gdjs.GameCode.GDBug_9595bigObjects10});
-gdjs.GameCode.asyncCallback16668092 = function (runtimeScene, asyncObjectsList) {
+gdjs.GameCode.asyncCallback20964676 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("LeftJoystick"), gdjs.GameCode.GDLeftJoystickObjects11);
 
 gdjs.copyArray(asyncObjectsList.getObjects("Player"), gdjs.GameCode.GDPlayerObjects11);
@@ -3347,14 +3347,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 /* Don't save LeftJoystick as it will be provided by the parent asyncObjectsList. */
 /* Don't save Player as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(4), (runtimeScene) => (gdjs.GameCode.asyncCallback16668092(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(4), (runtimeScene) => (gdjs.GameCode.asyncCallback20964676(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback19172188 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback20963908 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Bug_big"), gdjs.GameCode.GDBug_9595bigObjects10);
 
 gdjs.copyArray(asyncObjectsList.getObjects("DialogText"), gdjs.GameCode.GDDialogTextObjects10);
@@ -3378,14 +3378,14 @@ for (const obj of gdjs.GameCode.GDBug_9595bigObjects9) asyncObjectsList.addObjec
 /* Don't save DialogText as it will be provided by the parent asyncObjectsList. */
 /* Don't save LeftJoystick as it will be provided by the parent asyncObjectsList. */
 /* Don't save Player as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.5), (runtimeScene) => (gdjs.GameCode.asyncCallback19172188(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.5), (runtimeScene) => (gdjs.GameCode.asyncCallback20963908(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback18968116 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback20963836 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Bug_big"), gdjs.GameCode.GDBug_9595bigObjects9);
 
 {for(var i = 0, len = gdjs.GameCode.GDBug_9595bigObjects9.length ;i < len;++i) {
@@ -3408,14 +3408,14 @@ for (const obj of gdjs.GameCode.GDBug_9595bigObjects8) asyncObjectsList.addObjec
 /* Don't save DialogText as it will be provided by the parent asyncObjectsList. */
 /* Don't save LeftJoystick as it will be provided by the parent asyncObjectsList. */
 /* Don't save Player as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.75), (runtimeScene) => (gdjs.GameCode.asyncCallback18968116(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.75), (runtimeScene) => (gdjs.GameCode.asyncCallback20963836(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback21522100 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback20959820 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Bug_big"), gdjs.GameCode.GDBug_9595bigObjects8);
 
 {for(var i = 0, len = gdjs.GameCode.GDBug_9595bigObjects8.length ;i < len;++i) {
@@ -3438,14 +3438,14 @@ for (const obj of gdjs.GameCode.GDBug_9595bigObjects7) asyncObjectsList.addObjec
 /* Don't save DialogText as it will be provided by the parent asyncObjectsList. */
 /* Don't save LeftJoystick as it will be provided by the parent asyncObjectsList. */
 /* Don't save Player as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.5), (runtimeScene) => (gdjs.GameCode.asyncCallback21522100(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.5), (runtimeScene) => (gdjs.GameCode.asyncCallback20959820(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback23668428 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback20960628 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Bug_big"), gdjs.GameCode.GDBug_9595bigObjects7);
 
 gdjs.GameCode.GDRedExplosionObjects7.length = 0;
@@ -3453,8 +3453,8 @@ gdjs.GameCode.GDRedExplosionObjects7.length = 0;
 {gdjs.evtTools.tween.tweenCameraZoom2(runtimeScene, "4_bigbug2", 3, "", "linear", 1);
 }{gdjs.evtTools.tween.tweenCamera2(runtimeScene, "4_bigbug", (( gdjs.GameCode.GDBug_9595bigObjects7.length === 0 ) ? 0 :gdjs.GameCode.GDBug_9595bigObjects7[0].getCenterXInScene()), (( gdjs.GameCode.GDBug_9595bigObjects7.length === 0 ) ? 0 :gdjs.GameCode.GDBug_9595bigObjects7[0].getCenterYInScene()), "", "easeOutQuad", 7);
 }{gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 0);
-}{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "big_bug.aac", 0, true, 100, 1);
 }{gdjs.evtTools.sound.playSound(runtimeScene, "boom.AAC", false, 100, 1);
+}{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "big_bug.aac", 0, true, 100, 1);
 }{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDRedExplosionObjects7Objects, (( gdjs.GameCode.GDBug_9595bigObjects7.length === 0 ) ? 0 :gdjs.GameCode.GDBug_9595bigObjects7[0].getCenterXInScene()), (( gdjs.GameCode.GDBug_9595bigObjects7.length === 0 ) ? 0 :gdjs.GameCode.GDBug_9595bigObjects7[0].getCenterYInScene()), "");
 }{for(var i = 0, len = gdjs.GameCode.GDBug_9595bigObjects7.length ;i < len;++i) {
     gdjs.GameCode.GDBug_9595bigObjects7[i].hide(false);
@@ -3476,14 +3476,14 @@ for (const obj of gdjs.GameCode.GDBug_9595bigObjects6) asyncObjectsList.addObjec
 /* Don't save DialogText as it will be provided by the parent asyncObjectsList. */
 /* Don't save LeftJoystick as it will be provided by the parent asyncObjectsList. */
 /* Don't save Player as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback23668428(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback20960628(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback12447012 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback20959620 = function (runtimeScene, asyncObjectsList) {
 gdjs.GameCode.GDBug_9595bigObjects6.length = 0;
 
 {gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDBug_95959595bigObjects6Objects, 197, -(2969), "");
@@ -3510,14 +3510,14 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 /* Don't save DialogText as it will be provided by the parent asyncObjectsList. */
 /* Don't save LeftJoystick as it will be provided by the parent asyncObjectsList. */
 /* Don't save Player as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.GameCode.asyncCallback12447012(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.GameCode.asyncCallback20959620(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback23476044 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback20959548 = function (runtimeScene, asyncObjectsList) {
 {gdjs.evtsExt__CameraShake__SetDefaultTranslationAmplitude.func(runtimeScene, 2, 2, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 { //Subevents
@@ -3535,14 +3535,14 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.GameCode.GDDialogTextObjects4) asyncObjectsList.addObject("DialogText", obj);
 /* Don't save LeftJoystick as it will be provided by the parent asyncObjectsList. */
 /* Don't save Player as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.GameCode.asyncCallback23476044(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.GameCode.asyncCallback20959548(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback14746148 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback20959372 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("DialogText"), gdjs.GameCode.GDDialogTextObjects4);
 
 gdjs.copyArray(asyncObjectsList.getObjects("npc4"), gdjs.GameCode.GDnpc4Objects4);
@@ -3565,14 +3565,14 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 /* Don't save LeftJoystick as it will be provided by the parent asyncObjectsList. */
 /* Don't save Player as it will be provided by the parent asyncObjectsList. */
 for (const obj of gdjs.GameCode.GDnpc4Objects3) asyncObjectsList.addObject("npc4", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.GameCode.asyncCallback14746148(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.GameCode.asyncCallback20959372(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback19259196 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback20956820 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("npc4"), gdjs.GameCode.GDnpc4Objects3);
 
 {gdjs.evtsExt__CameraShake__SetDefaultTranslationAmplitude.func(runtimeScene, 100, 100, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
@@ -3600,14 +3600,14 @@ for (const obj of gdjs.GameCode.GDDialogTextObjects2) asyncObjectsList.addObject
 /* Don't save LeftJoystick as it will be provided by the parent asyncObjectsList. */
 /* Don't save Player as it will be provided by the parent asyncObjectsList. */
 for (const obj of gdjs.GameCode.GDnpc4Objects2) asyncObjectsList.addObject("npc4", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.GameCode.asyncCallback19259196(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.GameCode.asyncCallback20956820(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback20726396 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback20956892 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("DialogText"), gdjs.GameCode.GDDialogTextObjects2);
 
 gdjs.copyArray(asyncObjectsList.getObjects("npc4"), gdjs.GameCode.GDnpc4Objects2);
@@ -3629,7 +3629,7 @@ for (const obj of gdjs.GameCode.GDDialogTextObjects1) asyncObjectsList.addObject
 for (const obj of gdjs.GameCode.GDLeftJoystickObjects1) asyncObjectsList.addObject("LeftJoystick", obj);
 for (const obj of gdjs.GameCode.GDPlayerObjects1) asyncObjectsList.addObject("Player", obj);
 for (const obj of gdjs.GameCode.GDnpc4Objects1) asyncObjectsList.addObject("npc4", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.GameCode.asyncCallback20726396(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.GameCode.asyncCallback20956892(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -3638,7 +3638,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), 
 
 };gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDBug_95959595bigObjects2Objects = Hashtable.newFrom({"Bug_big": gdjs.GameCode.GDBug_9595bigObjects2});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.GameCode.GDPlayerObjects2});
-gdjs.GameCode.asyncCallback10507276 = function (runtimeScene, asyncObjectsList) {
+gdjs.GameCode.asyncCallback20967276 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Bug_big"), gdjs.GameCode.GDBug_9595bigObjects3);
 
 {for(var i = 0, len = gdjs.GameCode.GDBug_9595bigObjects3.length ;i < len;++i) {
@@ -3654,7 +3654,7 @@ gdjs.GameCode.eventsList53 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.GameCode.GDBug_9595bigObjects2) asyncObjectsList.addObject("Bug_big", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.GameCode.asyncCallback10507276(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.GameCode.asyncCallback20967276(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -3663,7 +3663,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5)
 
 };gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDBug_95959595bigObjects1Objects = Hashtable.newFrom({"Bug_big": gdjs.GameCode.GDBug_9595bigObjects1});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.GameCode.GDPlayerObjects1});
-gdjs.GameCode.asyncCallback12704012 = function (runtimeScene, asyncObjectsList) {
+gdjs.GameCode.asyncCallback20969252 = function (runtimeScene, asyncObjectsList) {
 {gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getScene().getVariables().getFromIndex(3), false);
 }}
 gdjs.GameCode.eventsList54 = function(runtimeScene, asyncObjectsList) {
@@ -3675,14 +3675,14 @@ gdjs.GameCode.eventsList54 = function(runtimeScene, asyncObjectsList) {
 const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback12704012(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback20969252(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback25638596 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback20969180 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Bug_big"), gdjs.GameCode.GDBug_9595bigObjects3);
 
 {for(var i = 0, len = gdjs.GameCode.GDBug_9595bigObjects3.length ;i < len;++i) {
@@ -3701,7 +3701,7 @@ gdjs.GameCode.eventsList55 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.GameCode.GDBug_9595bigObjects2) asyncObjectsList.addObject("Bug_big", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.GameCode.asyncCallback25638596(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.GameCode.asyncCallback20969180(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -3838,7 +3838,7 @@ gdjs.GameCode.eventsList57(runtimeScene);} //End of subevents
 
 };gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDTriggerZoneObjects1Objects = Hashtable.newFrom({"TriggerZone": gdjs.GameCode.GDTriggerZoneObjects1});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.GameCode.GDPlayerObjects1});
-gdjs.GameCode.asyncCallback23609924 = function (runtimeScene, asyncObjectsList) {
+gdjs.GameCode.asyncCallback20975420 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(runtimeScene.getObjects("Light_darkL"), gdjs.GameCode.GDLight_9595darkLObjects3);
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "5_light");
 }{for(var i = 0, len = gdjs.GameCode.GDLight_9595darkLObjects3.length ;i < len;++i) {
@@ -3856,7 +3856,7 @@ gdjs.GameCode.eventsList60 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.33), (runtimeScene) => (gdjs.GameCode.asyncCallback23609924(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.33), (runtimeScene) => (gdjs.GameCode.asyncCallback20975420(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -3867,7 +3867,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.33
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDoorObjects2Objects = Hashtable.newFrom({"Door": gdjs.GameCode.GDDoorObjects2});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDialogTextObjects3Objects = Hashtable.newFrom({"DialogText": gdjs.GameCode.GDDialogTextObjects3});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDnpc6Objects3Objects = Hashtable.newFrom({"npc6": gdjs.GameCode.GDnpc6Objects3});
-gdjs.GameCode.asyncCallback12092916 = function (runtimeScene, asyncObjectsList) {
+gdjs.GameCode.asyncCallback20978364 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(runtimeScene.getObjects("DialogText"), gdjs.GameCode.GDDialogTextObjects3);
 gdjs.copyArray(runtimeScene.getObjects("npc6"), gdjs.GameCode.GDnpc6Objects3);
 {gdjs.evtsExt__Custom_Extension__DisplayDialogText.func(runtimeScene, gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDialogTextObjects3Objects, "Text_AutoTyping", "Tween", gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDnpc6Objects3Objects, "Кибана лежит..." + gdjs.evtTools.string.newLine() + "Логов не видать", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
@@ -3880,7 +3880,7 @@ gdjs.GameCode.eventsList61 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.GameCode.asyncCallback12092916(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.GameCode.asyncCallback20978364(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -3955,7 +3955,7 @@ gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDBugObjects2Objects = Hashtable.newF
 gdjs.GameCode.mapOfEmptyGDBugObjects = Hashtable.newFrom({"Bug": []});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDCenterTextObjects2Objects = Hashtable.newFrom({"CenterText": gdjs.GameCode.GDCenterTextObjects2});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDoorObjects2Objects = Hashtable.newFrom({"Door": gdjs.GameCode.GDDoorObjects2});
-gdjs.GameCode.asyncCallback18560636 = function (runtimeScene, asyncObjectsList) {
+gdjs.GameCode.asyncCallback20987964 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(runtimeScene.getObjects("CenterText"), gdjs.GameCode.GDCenterTextObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Door"), gdjs.GameCode.GDDoorObjects2);
 {gdjs.evtTools.sound.setMusicOnChannelVolume(runtimeScene, 5, 50);
@@ -3969,7 +3969,7 @@ gdjs.GameCode.eventsList63 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.GameCode.asyncCallback18560636(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.GameCode.asyncCallback20987964(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -3983,7 +3983,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), 
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23620140);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20985340);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(gdjs.GameCode.GDPlayerObjects1, gdjs.GameCode.GDPlayerObjects2);
@@ -4011,7 +4011,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.getSceneInstancesCount((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.GameCode.mapOfEmptyGDBugObjects) == 0;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18818820);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20987180);
 }
 }
 if (isConditionTrue_0) {
@@ -4200,7 +4200,7 @@ gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDScore_95959595LabelObjects2Objects 
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDialogTextObjects2Objects = Hashtable.newFrom({"DialogText": gdjs.GameCode.GDDialogTextObjects2});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDnpc7Objects2Objects = Hashtable.newFrom({"npc7": gdjs.GameCode.GDnpc7Objects2});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDBug_95959595bigObjects3Objects = Hashtable.newFrom({"Bug_big": gdjs.GameCode.GDBug_9595bigObjects3});
-gdjs.GameCode.asyncCallback9705004 = function (runtimeScene, asyncObjectsList) {
+gdjs.GameCode.asyncCallback20996380 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("LeftJoystick"), gdjs.GameCode.GDLeftJoystickObjects8);
 
 gdjs.copyArray(asyncObjectsList.getObjects("Player"), gdjs.GameCode.GDPlayerObjects8);
@@ -4224,14 +4224,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 /* Don't save LeftJoystick as it will be provided by the parent asyncObjectsList. */
 /* Don't save Player as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback9705004(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback20996380(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback23650716 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback20996156 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("npc7"), gdjs.GameCode.GDnpc7Objects7);
 
 {for(var i = 0, len = gdjs.GameCode.GDnpc7Objects7.length ;i < len;++i) {
@@ -4253,14 +4253,14 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 /* Don't save LeftJoystick as it will be provided by the parent asyncObjectsList. */
 /* Don't save Player as it will be provided by the parent asyncObjectsList. */
 for (const obj of gdjs.GameCode.GDnpc7Objects6) asyncObjectsList.addObject("npc7", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.GameCode.asyncCallback23650716(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.GameCode.asyncCallback20996156(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback10454860 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback20994572 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Bug_big"), gdjs.GameCode.GDBug_9595bigObjects6);
 
 gdjs.copyArray(asyncObjectsList.getObjects("npc7"), gdjs.GameCode.GDnpc7Objects6);
@@ -4287,14 +4287,14 @@ for (const obj of gdjs.GameCode.GDBug_9595bigObjects5) asyncObjectsList.addObjec
 /* Don't save LeftJoystick as it will be provided by the parent asyncObjectsList. */
 /* Don't save Player as it will be provided by the parent asyncObjectsList. */
 for (const obj of gdjs.GameCode.GDnpc7Objects5) asyncObjectsList.addObject("npc7", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.GameCode.asyncCallback10454860(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.GameCode.asyncCallback20994572(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback20791764 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback20994116 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Bug_big"), gdjs.GameCode.GDBug_9595bigObjects5);
 
 gdjs.copyArray(asyncObjectsList.getObjects("npc7"), gdjs.GameCode.GDnpc7Objects5);
@@ -4319,14 +4319,14 @@ for (const obj of gdjs.GameCode.GDBug_9595bigObjects4) asyncObjectsList.addObjec
 /* Don't save LeftJoystick as it will be provided by the parent asyncObjectsList. */
 /* Don't save Player as it will be provided by the parent asyncObjectsList. */
 /* Don't save npc7 as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.GameCode.asyncCallback20791764(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.GameCode.asyncCallback20994116(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback16699356 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback20993636 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Bug_big"), gdjs.GameCode.GDBug_9595bigObjects4);
 
 {for(var i = 0, len = gdjs.GameCode.GDBug_9595bigObjects4.length ;i < len;++i) {
@@ -4349,14 +4349,14 @@ for (const obj of gdjs.GameCode.GDBug_9595bigObjects3) asyncObjectsList.addObjec
 /* Don't save LeftJoystick as it will be provided by the parent asyncObjectsList. */
 /* Don't save Player as it will be provided by the parent asyncObjectsList. */
 for (const obj of gdjs.GameCode.GDnpc7Objects3) asyncObjectsList.addObject("npc7", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.GameCode.asyncCallback16699356(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.GameCode.asyncCallback20993636(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback19057332 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback20991996 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("npc7"), gdjs.GameCode.GDnpc7Objects3);
 
 gdjs.GameCode.GDBug_9595bigObjects3.length = 0;
@@ -4384,14 +4384,14 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 /* Don't save LeftJoystick as it will be provided by the parent asyncObjectsList. */
 /* Don't save Player as it will be provided by the parent asyncObjectsList. */
 for (const obj of gdjs.GameCode.GDnpc7Objects2) asyncObjectsList.addObject("npc7", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback19057332(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback20991996(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback16165092 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback20992420 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("DialogText"), gdjs.GameCode.GDDialogTextObjects2);
 
 gdjs.copyArray(runtimeScene.getObjects("Score_Icon"), gdjs.GameCode.GDScore_9595IconObjects2);
@@ -4416,7 +4416,7 @@ for (const obj of gdjs.GameCode.GDDialogTextObjects1) asyncObjectsList.addObject
 for (const obj of gdjs.GameCode.GDLeftJoystickObjects1) asyncObjectsList.addObject("LeftJoystick", obj);
 for (const obj of gdjs.GameCode.GDPlayerObjects1) asyncObjectsList.addObject("Player", obj);
 for (const obj of gdjs.GameCode.GDnpc7Objects1) asyncObjectsList.addObject("npc7", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.GameCode.asyncCallback16165092(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.GameCode.asyncCallback20992420(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -4438,7 +4438,7 @@ gdjs.GameCode.eventsList74 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16270428);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20997588);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Bug_big"), gdjs.GameCode.GDBug_9595bigObjects2);
@@ -4479,7 +4479,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.getSceneInstancesCount((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.GameCode.mapOfEmptyGDBug_9595bigObjects) == 0;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10519532);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20999628);
 }
 }
 if (isConditionTrue_0) {
@@ -4520,7 +4520,7 @@ gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDogObjects5Objects = Hashtable.newF
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDialogTextObjects6Objects = Hashtable.newFrom({"DialogText": gdjs.GameCode.GDDialogTextObjects6});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDogObjects6Objects = Hashtable.newFrom({"Dog": gdjs.GameCode.GDDogObjects6});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDbroken_95959595glassObjects7Objects = Hashtable.newFrom({"broken_glass": gdjs.GameCode.GDbroken_9595glassObjects7});
-gdjs.GameCode.asyncCallback12469004 = function (runtimeScene, asyncObjectsList) {
+gdjs.GameCode.asyncCallback21005828 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Dog"), gdjs.GameCode.GDDogObjects7);
 
 gdjs.copyArray(asyncObjectsList.getObjects("LeftJoystick"), gdjs.GameCode.GDLeftJoystickObjects7);
@@ -4556,14 +4556,14 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.GameCode.GDDogObjects6) asyncObjectsList.addObject("Dog", obj);
 /* Don't save LeftJoystick as it will be provided by the parent asyncObjectsList. */
 /* Don't save Player as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.GameCode.asyncCallback12469004(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.GameCode.asyncCallback21005828(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback19332084 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback21008684 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("DialogText"), gdjs.GameCode.GDDialogTextObjects6);
 
 gdjs.copyArray(asyncObjectsList.getObjects("Dog"), gdjs.GameCode.GDDogObjects6);
@@ -4586,14 +4586,14 @@ for (const obj of gdjs.GameCode.GDDialogTextObjects5) asyncObjectsList.addObject
 for (const obj of gdjs.GameCode.GDDogObjects5) asyncObjectsList.addObject("Dog", obj);
 /* Don't save LeftJoystick as it will be provided by the parent asyncObjectsList. */
 /* Don't save Player as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.GameCode.asyncCallback19332084(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.GameCode.asyncCallback21008684(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback13403396 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback21005756 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("DialogText"), gdjs.GameCode.GDDialogTextObjects5);
 
 gdjs.copyArray(asyncObjectsList.getObjects("Dog"), gdjs.GameCode.GDDogObjects5);
@@ -4619,14 +4619,14 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.GameCode.GDDogObjects4) asyncObjectsList.addObject("Dog", obj);
 /* Don't save LeftJoystick as it will be provided by the parent asyncObjectsList. */
 /* Don't save Player as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback13403396(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback21005756(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback15272516 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback21006228 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Dog"), gdjs.GameCode.GDDogObjects4);
 
 {for(var i = 0, len = gdjs.GameCode.GDDogObjects4.length ;i < len;++i) {
@@ -4652,14 +4652,14 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.GameCode.GDDogObjects3) asyncObjectsList.addObject("Dog", obj);
 /* Don't save LeftJoystick as it will be provided by the parent asyncObjectsList. */
 /* Don't save Player as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback15272516(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback21006228(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback16418204 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback21006396 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Dog"), gdjs.GameCode.GDDogObjects3);
 
 {for(var i = 0, len = gdjs.GameCode.GDDogObjects3.length ;i < len;++i) {
@@ -4685,14 +4685,14 @@ for (const obj of gdjs.GameCode.GDDialogTextObjects2) asyncObjectsList.addObject
 for (const obj of gdjs.GameCode.GDDogObjects2) asyncObjectsList.addObject("Dog", obj);
 /* Don't save LeftJoystick as it will be provided by the parent asyncObjectsList. */
 /* Don't save Player as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.GameCode.asyncCallback16418204(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.GameCode.asyncCallback21006396(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback23559524 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback21006156 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("DialogText"), gdjs.GameCode.GDDialogTextObjects2);
 
 gdjs.copyArray(asyncObjectsList.getObjects("Dog"), gdjs.GameCode.GDDogObjects2);
@@ -4714,7 +4714,7 @@ for (const obj of gdjs.GameCode.GDDialogTextObjects1) asyncObjectsList.addObject
 for (const obj of gdjs.GameCode.GDDogObjects1) asyncObjectsList.addObject("Dog", obj);
 for (const obj of gdjs.GameCode.GDLeftJoystickObjects1) asyncObjectsList.addObject("LeftJoystick", obj);
 for (const obj of gdjs.GameCode.GDPlayerObjects1) asyncObjectsList.addObject("Player", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.GameCode.asyncCallback23559524(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.GameCode.asyncCallback21006156(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -4785,7 +4785,7 @@ gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDLight_95959595regular2Objects14Obje
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDcandle_95959595lightObjects16Objects = Hashtable.newFrom({"candle_light": gdjs.GameCode.GDcandle_9595lightObjects16});
 gdjs.GameCode.eventsList83 = function(runtimeScene, asyncObjectsList) {
 
-};gdjs.GameCode.asyncCallback15909324 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback21027948 = function (runtimeScene, asyncObjectsList) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).setNumber(8);
 }}
 gdjs.GameCode.eventsList84 = function(runtimeScene, asyncObjectsList) {
@@ -4797,7 +4797,7 @@ gdjs.GameCode.eventsList84 = function(runtimeScene, asyncObjectsList) {
 const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(4), (runtimeScene) => (gdjs.GameCode.asyncCallback15909324(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(4), (runtimeScene) => (gdjs.GameCode.asyncCallback21027948(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -4821,7 +4821,7 @@ gdjs.GameCode.forEachTemporary16 = gdjs.GameCode.GDcandlesObjects15[gdjs.GameCod
 gdjs.GameCode.GDcandlesObjects16.push(gdjs.GameCode.forEachTemporary16);
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18846220);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21027348);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDcandle_95959595lightObjects16Objects, (( gdjs.GameCode.GDcandlesObjects16.length === 0 ) ? 0 :gdjs.GameCode.GDcandlesObjects16[0].getPointX("")) + 30, (( gdjs.GameCode.GDcandlesObjects16.length === 0 ) ? 0 :gdjs.GameCode.GDcandlesObjects16[0].getPointY("")), "Lighting");
@@ -4844,7 +4844,7 @@ gdjs.GameCode.eventsList84(runtimeScene, asyncObjectsList);} //End of subevents
 }
 
 
-};gdjs.GameCode.asyncCallback15810788 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback21025588 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(runtimeScene.getObjects("DF_Left"), gdjs.GameCode.GDDF_9595LeftObjects14);
 gdjs.copyArray(runtimeScene.getObjects("DF_Right"), gdjs.GameCode.GDDF_9595RightObjects14);
 gdjs.copyArray(asyncObjectsList.getObjects("LeftJoystick"), gdjs.GameCode.GDLeftJoystickObjects14);
@@ -4884,14 +4884,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 /* Don't save LeftJoystick as it will be provided by the parent asyncObjectsList. */
 for (const obj of gdjs.GameCode.GDLight_9595regular2Objects13) asyncObjectsList.addObject("Light_regular2", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.GameCode.asyncCallback15810788(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.GameCode.asyncCallback21025588(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback10526340 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback21024908 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("CenterText"), gdjs.GameCode.GDCenterTextObjects13);
 
 gdjs.copyArray(asyncObjectsList.getObjects("Light_regular2"), gdjs.GameCode.GDLight_9595regular2Objects13);
@@ -4913,14 +4913,14 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.GameCode.GDCenterTextObjects12) asyncObjectsList.addObject("CenterText", obj);
 /* Don't save LeftJoystick as it will be provided by the parent asyncObjectsList. */
 for (const obj of gdjs.GameCode.GDLight_9595regular2Objects12) asyncObjectsList.addObject("Light_regular2", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.25), (runtimeScene) => (gdjs.GameCode.asyncCallback10526340(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.25), (runtimeScene) => (gdjs.GameCode.asyncCallback21024908(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback18713636 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback21024676 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("CenterText"), gdjs.GameCode.GDCenterTextObjects12);
 
 gdjs.copyArray(asyncObjectsList.getObjects("Light_regular2"), gdjs.GameCode.GDLight_9595regular2Objects12);
@@ -4942,14 +4942,14 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.GameCode.GDCenterTextObjects11) asyncObjectsList.addObject("CenterText", obj);
 /* Don't save LeftJoystick as it will be provided by the parent asyncObjectsList. */
 for (const obj of gdjs.GameCode.GDLight_9595regular2Objects11) asyncObjectsList.addObject("Light_regular2", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.25), (runtimeScene) => (gdjs.GameCode.asyncCallback18713636(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.25), (runtimeScene) => (gdjs.GameCode.asyncCallback21024676(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback18713564 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback21023236 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("CenterText"), gdjs.GameCode.GDCenterTextObjects11);
 
 gdjs.copyArray(asyncObjectsList.getObjects("Light_regular2"), gdjs.GameCode.GDLight_9595regular2Objects11);
@@ -4971,14 +4971,14 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.GameCode.GDCenterTextObjects10) asyncObjectsList.addObject("CenterText", obj);
 /* Don't save LeftJoystick as it will be provided by the parent asyncObjectsList. */
 for (const obj of gdjs.GameCode.GDLight_9595regular2Objects10) asyncObjectsList.addObject("Light_regular2", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback18713564(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback21023236(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback15095908 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback21023908 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("CenterText"), gdjs.GameCode.GDCenterTextObjects10);
 
 gdjs.copyArray(asyncObjectsList.getObjects("Light_regular2"), gdjs.GameCode.GDLight_9595regular2Objects10);
@@ -5000,14 +5000,14 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.GameCode.GDCenterTextObjects9) asyncObjectsList.addObject("CenterText", obj);
 /* Don't save LeftJoystick as it will be provided by the parent asyncObjectsList. */
 for (const obj of gdjs.GameCode.GDLight_9595regular2Objects9) asyncObjectsList.addObject("Light_regular2", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback15095908(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback21023908(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback23666540 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback21023164 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("CenterText"), gdjs.GameCode.GDCenterTextObjects9);
 
 gdjs.copyArray(asyncObjectsList.getObjects("Light_regular2"), gdjs.GameCode.GDLight_9595regular2Objects9);
@@ -5029,14 +5029,14 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.GameCode.GDCenterTextObjects8) asyncObjectsList.addObject("CenterText", obj);
 /* Don't save LeftJoystick as it will be provided by the parent asyncObjectsList. */
 for (const obj of gdjs.GameCode.GDLight_9595regular2Objects8) asyncObjectsList.addObject("Light_regular2", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.25), (runtimeScene) => (gdjs.GameCode.asyncCallback23666540(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.25), (runtimeScene) => (gdjs.GameCode.asyncCallback21023164(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback16646396 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback21022108 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("CenterText"), gdjs.GameCode.GDCenterTextObjects8);
 
 gdjs.copyArray(asyncObjectsList.getObjects("Light_regular2"), gdjs.GameCode.GDLight_9595regular2Objects8);
@@ -5058,14 +5058,14 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.GameCode.GDCenterTextObjects7) asyncObjectsList.addObject("CenterText", obj);
 /* Don't save LeftJoystick as it will be provided by the parent asyncObjectsList. */
 for (const obj of gdjs.GameCode.GDLight_9595regular2Objects7) asyncObjectsList.addObject("Light_regular2", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback16646396(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback21022108(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback25924588 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback21021116 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("CenterText"), gdjs.GameCode.GDCenterTextObjects7);
 
 gdjs.copyArray(asyncObjectsList.getObjects("Light_regular2"), gdjs.GameCode.GDLight_9595regular2Objects7);
@@ -5087,14 +5087,14 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.GameCode.GDCenterTextObjects6) asyncObjectsList.addObject("CenterText", obj);
 /* Don't save LeftJoystick as it will be provided by the parent asyncObjectsList. */
 for (const obj of gdjs.GameCode.GDLight_9595regular2Objects6) asyncObjectsList.addObject("Light_regular2", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback25924588(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback21021116(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback16671204 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback21012668 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("CenterText"), gdjs.GameCode.GDCenterTextObjects6);
 
 gdjs.copyArray(asyncObjectsList.getObjects("Light_regular2"), gdjs.GameCode.GDLight_9595regular2Objects6);
@@ -5116,14 +5116,14 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.GameCode.GDCenterTextObjects5) asyncObjectsList.addObject("CenterText", obj);
 /* Don't save LeftJoystick as it will be provided by the parent asyncObjectsList. */
 for (const obj of gdjs.GameCode.GDLight_9595regular2Objects5) asyncObjectsList.addObject("Light_regular2", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback16671204(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback21012668(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback25597452 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback21018404 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("CenterText"), gdjs.GameCode.GDCenterTextObjects5);
 
 gdjs.copyArray(runtimeScene.getObjects("Light_regular2"), gdjs.GameCode.GDLight_9595regular2Objects5);
@@ -5149,14 +5149,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.GameCode.GDCenterTextObjects4) asyncObjectsList.addObject("CenterText", obj);
 /* Don't save LeftJoystick as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback25597452(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback21018404(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback14746364 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback21017476 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("CenterText"), gdjs.GameCode.GDCenterTextObjects4);
 
 {gdjs.evtTools.tween.tweenCamera2(runtimeScene, "cam_center", gdjs.evtTools.camera.getCameraX(runtimeScene, "", 0), -(4688), "", "easeOutQuad", 1);
@@ -5178,14 +5178,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.GameCode.GDCenterTextObjects3) asyncObjectsList.addObject("CenterText", obj);
 for (const obj of gdjs.GameCode.GDLeftJoystickObjects3) asyncObjectsList.addObject("LeftJoystick", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback14746364(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback21017476(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback19331540 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback21016324 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("CenterText"), gdjs.GameCode.GDCenterTextObjects3);
 
 gdjs.copyArray(runtimeScene.getObjects("LeftJoystick"), gdjs.GameCode.GDLeftJoystickObjects3);
@@ -5215,14 +5215,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.GameCode.GDCenterTextObjects2) asyncObjectsList.addObject("CenterText", obj);
 /* Don't save Player as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.GameCode.asyncCallback19331540(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.GameCode.asyncCallback21016324(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback14812004 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback21013300 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(runtimeScene.getObjects("CenterText"), gdjs.GameCode.GDCenterTextObjects2);
 {gdjs.evtTools.tween.tweenVariableNumber3(runtimeScene, "hue0", runtimeScene.getScene().getVariables().getFromIndex(7).getChild(0), 35, "easeOutQuad", 2);
 }{gdjs.evtTools.tween.tweenVariableNumber3(runtimeScene, "hue1", runtimeScene.getScene().getVariables().getFromIndex(7).getChild(1), 35, "easeOutQuad", 2);
@@ -5241,7 +5241,7 @@ gdjs.GameCode.eventsList98 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.GameCode.GDPlayerObjects1) asyncObjectsList.addObject("Player", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.GameCode.asyncCallback14812004(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.GameCode.asyncCallback21013300(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -5308,7 +5308,7 @@ gdjs.GameCode.eventsList98(runtimeScene);} //End of subevents
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDF_95959595RightObjects1Objects = Hashtable.newFrom({"DF_Right": gdjs.GameCode.GDDF_9595RightObjects1});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDTriggerZoneObjects1Objects = Hashtable.newFrom({"TriggerZone": gdjs.GameCode.GDTriggerZoneObjects1});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.GameCode.GDPlayerObjects1});
-gdjs.GameCode.asyncCallback19291628 = function (runtimeScene, asyncObjectsList) {
+gdjs.GameCode.asyncCallback21030644 = function (runtimeScene, asyncObjectsList) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Boss", true);
 }}
 gdjs.GameCode.eventsList100 = function(runtimeScene, asyncObjectsList) {
@@ -5320,14 +5320,14 @@ gdjs.GameCode.eventsList100 = function(runtimeScene, asyncObjectsList) {
 const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.GameCode.asyncCallback19291628(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.GameCode.asyncCallback21030644(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback23705548 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback21033948 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("boss_eyes"), gdjs.GameCode.GDboss_9595eyesObjects5);
 
 {gdjs.evtTools.tween.tweenCameraZoom2(runtimeScene, "cam_centerzoom", 7, "", "easeInQuad", 0.5);
@@ -5348,14 +5348,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.GameCode.GDboss_9595eyesObjects4) asyncObjectsList.addObject("boss_eyes", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback23705548(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback21033948(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback20952364 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback21031276 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(runtimeScene.getObjects("boss_eyes"), gdjs.GameCode.GDboss_9595eyesObjects4);
 {gdjs.evtTools.tween.tweenCamera2(runtimeScene, "cam_center", gdjs.evtTools.camera.getCameraX(runtimeScene, "", 0), -(5195), "", "easeInOutQuad", 3);
 }{gdjs.evtTools.tween.tweenCameraZoom2(runtimeScene, "cam_centerzoom", 4, "", "easeOutQuad", 1);
@@ -5375,14 +5375,14 @@ gdjs.GameCode.eventsList102 = function(runtimeScene, asyncObjectsList) {
 const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.GameCode.asyncCallback20952364(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.GameCode.asyncCallback21031276(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback17310820 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback21031420 = function (runtimeScene, asyncObjectsList) {
 {gdjs.evtTools.tween.tweenCamera2(runtimeScene, "cam_center", gdjs.evtTools.camera.getCameraX(runtimeScene, "", 0), -(5193), "", "easeInOutQuad", 3);
 }{gdjs.evtTools.tween.tweenCameraZoom2(runtimeScene, "cam_centerzoom", 3.5, "", "easeOutQuad", 3);
 }
@@ -5398,14 +5398,14 @@ gdjs.GameCode.eventsList103 = function(runtimeScene, asyncObjectsList) {
 const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(4), (runtimeScene) => (gdjs.GameCode.asyncCallback17310820(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(4), (runtimeScene) => (gdjs.GameCode.asyncCallback21031420(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback25426692 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback21029980 = function (runtimeScene, asyncObjectsList) {
 {gdjs.evtTools.sound.preloadMusic(runtimeScene, "boss2.AAC");
 }{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "boss1.AAC", 0, false, 100, 1);
 }{gdjs.evtTools.tween.tweenCamera2(runtimeScene, "cam_center", gdjs.evtTools.camera.getCameraX(runtimeScene, "", 0), -(5195), "", "easeOutQuad", 4);
@@ -5422,7 +5422,7 @@ gdjs.GameCode.eventsList104 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.GameCode.asyncCallback25426692(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.GameCode.asyncCallback21029980(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -5434,7 +5434,7 @@ gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDpcObjects1Objects = Hashtable.newFr
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.GameCode.GDPlayerObjects2});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDCenterTextObjects2Objects = Hashtable.newFrom({"CenterText": gdjs.GameCode.GDCenterTextObjects2});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDRedExplosionObjects3Objects = Hashtable.newFrom({"RedExplosion": gdjs.GameCode.GDRedExplosionObjects3});
-gdjs.GameCode.asyncCallback16266956 = function (runtimeScene, asyncObjectsList) {
+gdjs.GameCode.asyncCallback21039628 = function (runtimeScene, asyncObjectsList) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "GameOver", true);
 }}
 gdjs.GameCode.eventsList105 = function(runtimeScene, asyncObjectsList) {
@@ -5446,14 +5446,14 @@ gdjs.GameCode.eventsList105 = function(runtimeScene, asyncObjectsList) {
 const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.GameCode.asyncCallback16266956(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.GameCode.asyncCallback21039628(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameCode.asyncCallback16266860 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback21037324 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Player"), gdjs.GameCode.GDPlayerObjects3);
 
 gdjs.GameCode.GDRedExplosionObjects3.length = 0;
@@ -5483,7 +5483,7 @@ gdjs.GameCode.eventsList106 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.GameCode.GDPlayerObjects2) asyncObjectsList.addObject("Player", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.01), (runtimeScene) => (gdjs.GameCode.asyncCallback16266860(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.01), (runtimeScene) => (gdjs.GameCode.asyncCallback21037324(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -5580,7 +5580,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "q");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11898300);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21042588);
 }
 }
 if (isConditionTrue_0) {
@@ -5616,7 +5616,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "r");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23600276);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21044068);
 }
 }
 if (isConditionTrue_0) {
@@ -5901,7 +5901,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1)) < 6;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18891940);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20990516);
 }
 }
 }
@@ -5976,7 +5976,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1)) == 6;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16726468);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21002132);
 }
 }
 }
@@ -6060,7 +6060,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.systemInfo.hasTouchScreen(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18667540);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21028828);
 }
 }
 }
@@ -6099,7 +6099,7 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDTriggerZoneObjects1.length;i<l;++i) {
 gdjs.GameCode.GDTriggerZoneObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25323228);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21030276);
 }
 }
 }

@@ -10,7 +10,7 @@ gdjs.GameOverCode.GDfadeObjects2= [];
 gdjs.GameOverCode.GDfadeObjects3= [];
 
 
-gdjs.GameOverCode.asyncCallback21457220 = function (runtimeScene, asyncObjectsList) {
+gdjs.GameOverCode.asyncCallback21548820 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("TransparentButtonWithWhiteBlueBorder"), gdjs.GameOverCode.GDTransparentButtonWithWhiteBlueBorderObjects2);
 
 {for(var i = 0, len = gdjs.GameOverCode.GDTransparentButtonWithWhiteBlueBorderObjects2.length ;i < len;++i) {
@@ -26,7 +26,7 @@ gdjs.GameOverCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.GameOverCode.GDTransparentButtonWithWhiteBlueBorderObjects1) asyncObjectsList.addObject("TransparentButtonWithWhiteBlueBorder", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(7), (runtimeScene) => (gdjs.GameOverCode.asyncCallback21457220(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(7), (runtimeScene) => (gdjs.GameOverCode.asyncCallback21548820(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -73,7 +73,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21455844);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21547444);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("StayDetermined"), gdjs.GameOverCode.GDStayDeterminedObjects1);
@@ -111,7 +111,7 @@ for (var i = 0, k = 0, l = gdjs.GameOverCode.GDTransparentButtonWithWhiteBlueBor
 gdjs.GameOverCode.GDTransparentButtonWithWhiteBlueBorderObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21455756);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21547356);
 }
 }
 if (isConditionTrue_0) {
@@ -133,7 +133,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21460844);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21551588);
 }
 }
 if (isConditionTrue_0) {

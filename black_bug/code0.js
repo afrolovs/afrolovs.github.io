@@ -74,7 +74,7 @@ gdjs.copyArray(runtimeScene.getObjects("train"), gdjs.IntroCode.GDtrainObjects1)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20667588);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20746028);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("cam_center"), gdjs.IntroCode.GDcam_9595centerObjects1);

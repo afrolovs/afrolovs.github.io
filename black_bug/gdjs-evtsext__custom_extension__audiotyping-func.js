@@ -17,7 +17,7 @@ gdjs.evtsExt__Custom_Extension__AudioTyping.eventsList0 = function(runtimeScene,
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(19632684);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(19708916);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Custom_Extension__AudioTyping.GDObjectObjects1);
