@@ -51,6 +51,10 @@ gdjs.YouWinCode.GDDialogObjects1= [];
 gdjs.YouWinCode.GDDialogObjects2= [];
 gdjs.YouWinCode.GDDialogObjects3= [];
 gdjs.YouWinCode.GDDialogObjects4= [];
+gdjs.YouWinCode.GDfallbackObjects1= [];
+gdjs.YouWinCode.GDfallbackObjects2= [];
+gdjs.YouWinCode.GDfallbackObjects3= [];
+gdjs.YouWinCode.GDfallbackObjects4= [];
 gdjs.YouWinCode.GDfadeObjects1= [];
 gdjs.YouWinCode.GDfadeObjects2= [];
 gdjs.YouWinCode.GDfadeObjects3= [];
@@ -179,7 +183,7 @@ gdjs.YouWinCode.eventsList4 = function(runtimeScene, asyncObjectsList) {
 const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(6), (runtimeScene) => (gdjs.YouWinCode.asyncCallback21593852(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(4), (runtimeScene) => (gdjs.YouWinCode.asyncCallback21593852(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -382,7 +386,28 @@ gdjs.YouWinCode.eventsList6(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.YouWinCode.eventsList8 = function(runtimeScene) {
+};gdjs.YouWinCode.asyncCallback25668028 = function (runtimeScene, asyncObjectsList) {
+gdjs.copyArray(runtimeScene.getObjects("fallback"), gdjs.YouWinCode.GDfallbackObjects2);
+{for(var i = 0, len = gdjs.YouWinCode.GDfallbackObjects2.length ;i < len;++i) {
+    gdjs.YouWinCode.GDfallbackObjects2[i].hide(false);
+}
+}}
+gdjs.YouWinCode.eventsList8 = function(runtimeScene) {
+
+{
+
+
+{
+{
+const asyncObjectsList = new gdjs.LongLivedObjectsList();
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.YouWinCode.asyncCallback25668028(runtimeScene, asyncObjectsList)));
+}
+}
+
+}
+
+
+};gdjs.YouWinCode.eventsList9 = function(runtimeScene) {
 
 {
 
@@ -426,6 +451,7 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Dialog"), gdjs.YouWinCode.GDDialogObjects1);
 gdjs.copyArray(runtimeScene.getObjects("donate"), gdjs.YouWinCode.GDdonateObjects1);
+gdjs.copyArray(runtimeScene.getObjects("fallback"), gdjs.YouWinCode.GDfallbackObjects1);
 gdjs.copyArray(runtimeScene.getObjects("score_footer"), gdjs.YouWinCode.GDscore_9595footerObjects1);
 gdjs.copyArray(runtimeScene.getObjects("score_num"), gdjs.YouWinCode.GDscore_9595numObjects1);
 gdjs.copyArray(runtimeScene.getObjects("score_title"), gdjs.YouWinCode.GDscore_9595titleObjects1);
@@ -443,6 +469,9 @@ gdjs.copyArray(runtimeScene.getObjects("score_title"), gdjs.YouWinCode.GDscore_9
 }
 }{for(var i = 0, len = gdjs.YouWinCode.GDdonateObjects1.length ;i < len;++i) {
     gdjs.YouWinCode.GDdonateObjects1[i].deleteFromScene(runtimeScene);
+}
+}{for(var i = 0, len = gdjs.YouWinCode.GDfallbackObjects1.length ;i < len;++i) {
+    gdjs.YouWinCode.GDfallbackObjects1[i].hide();
 }
 }{gdjs.evtTools.sound.fadeMusicVolume(runtimeScene, 0, 0, 1);
 }
@@ -483,7 +512,10 @@ for (var i = 0, k = 0, l = gdjs.YouWinCode.GDdonateObjects1.length;i<l;++i) {
 gdjs.YouWinCode.GDdonateObjects1.length = k;
 if (isConditionTrue_0) {
 {gdjs.evtTools.window.openURL("https://www.tinkoff.ru/cf/AUd78E6MKoi", runtimeScene);
-}}
+}
+{ //Subevents
+gdjs.YouWinCode.eventsList8(runtimeScene);} //End of subevents
+}
 
 }
 
@@ -545,12 +577,16 @@ gdjs.YouWinCode.GDDialogObjects1.length = 0;
 gdjs.YouWinCode.GDDialogObjects2.length = 0;
 gdjs.YouWinCode.GDDialogObjects3.length = 0;
 gdjs.YouWinCode.GDDialogObjects4.length = 0;
+gdjs.YouWinCode.GDfallbackObjects1.length = 0;
+gdjs.YouWinCode.GDfallbackObjects2.length = 0;
+gdjs.YouWinCode.GDfallbackObjects3.length = 0;
+gdjs.YouWinCode.GDfallbackObjects4.length = 0;
 gdjs.YouWinCode.GDfadeObjects1.length = 0;
 gdjs.YouWinCode.GDfadeObjects2.length = 0;
 gdjs.YouWinCode.GDfadeObjects3.length = 0;
 gdjs.YouWinCode.GDfadeObjects4.length = 0;
 
-gdjs.YouWinCode.eventsList8(runtimeScene);
+gdjs.YouWinCode.eventsList9(runtimeScene);
 
 return;
 

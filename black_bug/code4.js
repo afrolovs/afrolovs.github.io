@@ -654,7 +654,7 @@ gdjs.copyArray(gdjs.BossGameCode.GDBOSSObjects2, gdjs.BossGameCode.GDBOSSObjects
 
 gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.BossGameCode.GDPlayerObjects3);
 {for(var i = 0, len = gdjs.BossGameCode.GDBOSSObjects3.length ;i < len;++i) {
-    gdjs.BossGameCode.GDBOSSObjects3[i].addForceTowardObject((gdjs.BossGameCode.GDPlayerObjects3.length !== 0 ? gdjs.BossGameCode.GDPlayerObjects3[0] : null), 230, 0);
+    gdjs.BossGameCode.GDBOSSObjects3[i].addForceTowardObject((gdjs.BossGameCode.GDPlayerObjects3.length !== 0 ? gdjs.BossGameCode.GDPlayerObjects3[0] : null), 235, 0);
 }
 }}
 
