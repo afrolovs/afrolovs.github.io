@@ -1,0 +1,12 @@
+{
+  "name": "Call of Zhuk: Black Bug",
+  "short_name": "Call of Zhuk: Black Bug",
+  "id": "com.example.gamename",
+  "description": "",
+  "orientation": "portrait",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": []
+}
