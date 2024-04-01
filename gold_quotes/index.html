@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- saved from url=(0054)https://ruseller.com/lessons/les416/example/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>Мемориз ОТ НСК</title>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<!-- JavaScript Test Zone -->
+	<script type="text/javascript">
+	$(document).ready(function() {
+		
+		$('blockquote').quovolver();
+		
+	});
+	
+
+	</script>
+<script>
+(function($) {
+	$.fn.quovolver = function(speed, delay) {
+		
+		/* Sets default values */
+		if (!speed) speed = 500;
+		if (!delay) delay = 5000;
+		
+		// If "delay" is less than 4 times the "speed", it will break the effect 
+		// If that's the case, make "delay" exactly 4 times "speed"
+		var quaSpd = (speed*4);
+		if (quaSpd > (delay)) delay = quaSpd;
+		
+		// Create the variables needed
+		var	quote = $(this),
+			firstQuo = $(this).filter(':first'),
+			lastQuo = $(this).filter(':last'),
+			wrapElem = '<div id="quote_wrap"></div>';
+		
+		// Wrap the quotes
+		$(this).wrapAll(wrapElem);
+		
+		// Hide all the quotes, then show the first
+		$(this).hide();
+		$(firstQuo).show();
+		
+		// Set the hight of the wrapper
+		$(this).parent().css({height: $(firstQuo).height()});		
+		
+		// Where the magic happens
+		setInterval(function(){
+			
+			// Set required hight and element in variables for animation
+			if($(lastQuo).is(':visible')) {
+				var nextElem = $(firstQuo);
+				var wrapHeight = $(nextElem).height();
+			} else {
+				var nextElem = $(quote).filter(':visible').next();
+				var wrapHeight = $(nextElem).height();
+			}
+			
+			// Fadeout the quote that is currently visible
+			$(quote).filter(':visible').fadeOut(speed);
+			
+			// Set the wrapper to the hight of the next element, then fade that element in
+			setTimeout(function() {
+				$(quote).parent().animate({height: wrapHeight}, speed);
+			}, speed);
+			
+			if($(lastQuo).is(':visible')) {
+				setTimeout(function() {
+					$(firstQuo).fadeIn(speed*2);
+				}, speed*2);
+				
+			} else {
+				setTimeout(function() {
+					$(nextElem).fadeIn(speed);
+				}, speed*2);
+			}
+			
+		}, delay);
+	
+	};
+})(jQuery);
+</script>
+	
+	
+<style>
+body { font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 32px; color: #373737; }
+a { text-decoration: none; color: #52b7d4; }
+a:hover { color: #ea9941; }
+#header, #footer { padding: 20px 0; }
+#wrapper { width: 475px; margin: 0 auto; }
+#description { margin-bottom: 40px; padding-bottom: 10px; }
+h1, h2 { font-weight: normal; }
+h1 { font-family: Georgia, Times, serif; font-size: 42px; color: #1f1f1f;}
+h2 { font-size: 24px; }
+#description p { margin-bottom: 10px; }
+#footer { font-size: 11px; line-height: 16px; }
+#footer a { color: #373737; border-bottom: 1px solid #f2f2f2; }
+#footer a:hover { color: #ea9941; border-color: #ea9941; }
+code { font-family: "Courier New", Courier, Monaco, monospace; background: #f2f2f2; margin-bottom: 20px; display: block; padding: 20px; }	
+blockquote p { margin-bottom: 10px; font-style: italic; }
+blockquote cite { display: block; text-align: right; text-transform: uppercase; font-size: 14px; letter-spacing: 1px; font-family: Arial, Helvetica, sans-serif; }
+
+/*
+ |	Setting the width for the blockquotes is required
+ |	to accurately adjust it's contianer
+*/
+
+blockquote {
+	font-family: Georgia, Times, serif;
+	width: 300px; /* required */
+	margin: 0 auto;
+	}
+	
+/*
+ |	The #quote_wrap div is created
+ |	by Quovolver to wrap the quotes
+*/
+
+#quote_wrap { 
+	background: #fbffec url(
+	http://sandbox.sebnitu.com/jquery/quovolver/demo/images/quote-mark.png
+	) no-repeat 20px 20px;
+	margin: 40px 0; padding: 20px; border: 1px solid #edffaf;
+	}
+
+</style>
+</head>
+<body>
+
+<div id="wrapper">
+	
+	<div id="header">
+		<h1>Цитаты великих людей</h1>
+	</div>
+	<div id="article">
+			
+	  <blockquote>
+			<p>Я слушаю всех, весь отдел.</p>
+			<cite>– Виктор Фомин</cite>
+		</blockquote>
+	
+		<blockquote>
+			<p>Наши сотрудники выполняют дополнительные задачи на добровольной основе.</p>
+			<cite>– Андрей Преображенский</cite>
+		</blockquote>
+
+		<blockquote>
+			<p>Короче я планирую завести баг в силе как я это делаю</p>
+			<cite>– Максим Бендеров</cite>
+		</blockquote>
+
+		<blockquote>
+			<p>Реализовано.</p>
+			<cite>– Виктор Степанов</cite>
+		</blockquote>
+
+		<blockquote>
+			<p>А что, пятница на ТЗ без подписок что ли работает?</p>
+			<cite>– Виктор Фомин</cite>
+		</blockquote>
+		
+		<blockquote>
+			<p>Мы сможем аргументировать кандидатам разрыв зарплаты между компанией и рынком.</p>
+			<cite>– Андрей Преображенский</cite>
+		</blockquote>
+	
+		<blockquote>
+			<p>После двух бутылок водки можно и салатиком отравиться.</p>
+			<cite>– Алексей Сахаров</cite>
+		</blockquote>
+
+		<blockquote>
+			<p>Воспроизведите этот кейс 100 раз для сбора статистики.</p>
+			<cite>– Дмитрий Украинский</cite>
+		</blockquote>		
+		
+		<blockquote>
+			<p>Резинка - впизду этот экстрим</p>
+			<cite>– Виктор Фомин</cite>
+		</blockquote>
+
+		<blockquote>
+			<p>Не баг.</p>
+			<cite>– Дмитрий Украинский</cite>
+		</blockquote>		
+		
+		<blockquote>
+			<p>А на эту тему есть хороший армейский анекдот!</p>
+			<cite>– Алексей Сахаров</cite>
+		</blockquote>
+
+		<blockquote>
+			<p>Нормально же 1.6 едет, ну</p>
+			<cite>– Виктор Фомин</cite>
+		</blockquote>
+		
+		<blockquote>
+			<p>Цинбарева нам вообще подкинули с другого отдела</p>
+			<cite>– Андрей Преображенский</cite>
+		</blockquote>
+		
+	</div><!-- #article -->
+	
+	
+	<div id="footer"></div><!-- #footer -->
+	
+</div><!-- #wrapper -->
+
+
+</body></html>
