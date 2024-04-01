@@ -115,7 +115,7 @@ gdjs.evtsExt__Custom_Extension__OpenDoor.eventsList0(runtimeScene, eventsFunctio
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(19741412);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(19750556);
 }
 if (isConditionTrue_0) {
 

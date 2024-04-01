@@ -240,7 +240,7 @@ gdjs.Intro2Code.GDfadeObjects14= [];
 
 
 gdjs.Intro2Code.mapOfGDgdjs_9546Intro2Code_9546GDplayer_95959595dialogObjects6Objects = Hashtable.newFrom({"player_dialog": gdjs.Intro2Code.GDplayer_9595dialogObjects6});
-gdjs.Intro2Code.asyncCallback20810396 = function (runtimeScene, asyncObjectsList) {
+gdjs.Intro2Code.asyncCallback20819508 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("start_game2"), gdjs.Intro2Code.GDstart_9595game2Objects14);
 
 {for(var i = 0, len = gdjs.Intro2Code.GDstart_9595game2Objects14.length ;i < len;++i) {
@@ -257,14 +257,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 /* Don't save start_game2 as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(4), (runtimeScene) => (gdjs.Intro2Code.asyncCallback20810396(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(4), (runtimeScene) => (gdjs.Intro2Code.asyncCallback20819508(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Intro2Code.asyncCallback20815292 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Intro2Code.asyncCallback20824436 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("player_dialog"), gdjs.Intro2Code.GDplayer_9595dialogObjects13);
 
 {for(var i = 0, len = gdjs.Intro2Code.GDplayer_9595dialogObjects13.length ;i < len;++i) {
@@ -288,14 +288,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 /* Don't save player_dialog as it will be provided by the parent asyncObjectsList. */
 /* Don't save start_game2 as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Intro2Code.asyncCallback20815292(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Intro2Code.asyncCallback20824436(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Intro2Code.asyncCallback20814612 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Intro2Code.asyncCallback20823756 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Shishkin"), gdjs.Intro2Code.GDShishkinObjects12);
 
 {for(var i = 0, len = gdjs.Intro2Code.GDShishkinObjects12.length ;i < len;++i) {
@@ -323,14 +323,14 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 /* Don't save Shishkin as it will be provided by the parent asyncObjectsList. */
 for (const obj of gdjs.Intro2Code.GDplayer_9595dialogObjects11) asyncObjectsList.addObject("player_dialog", obj);
 /* Don't save start_game2 as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Intro2Code.asyncCallback20814612(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Intro2Code.asyncCallback20823756(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Intro2Code.asyncCallback20814308 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Intro2Code.asyncCallback20823452 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("player_dialog"), gdjs.Intro2Code.GDplayer_9595dialogObjects11);
 
 {for(var i = 0, len = gdjs.Intro2Code.GDplayer_9595dialogObjects11.length ;i < len;++i) {
@@ -355,14 +355,14 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 /* Don't save Shishkin as it will be provided by the parent asyncObjectsList. */
 /* Don't save player_dialog as it will be provided by the parent asyncObjectsList. */
 /* Don't save start_game2 as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Intro2Code.asyncCallback20814308(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Intro2Code.asyncCallback20823452(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Intro2Code.asyncCallback20813612 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Intro2Code.asyncCallback20822756 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("okko_2"), gdjs.Intro2Code.GDokko_95952Objects10);
 
 gdjs.copyArray(asyncObjectsList.getObjects("okko_3"), gdjs.Intro2Code.GDokko_95953Objects10);
@@ -391,14 +391,14 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 /* Don't save okko_3 as it will be provided by the parent asyncObjectsList. */
 for (const obj of gdjs.Intro2Code.GDplayer_9595dialogObjects9) asyncObjectsList.addObject("player_dialog", obj);
 /* Don't save start_game2 as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.Intro2Code.asyncCallback20813612(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.Intro2Code.asyncCallback20822756(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Intro2Code.asyncCallback20813020 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Intro2Code.asyncCallback20822164 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("player_dialog"), gdjs.Intro2Code.GDplayer_9595dialogObjects9);
 
 {for(var i = 0, len = gdjs.Intro2Code.GDplayer_9595dialogObjects9.length ;i < len;++i) {
@@ -422,14 +422,14 @@ for (const obj of gdjs.Intro2Code.GDokko_95952Objects8) asyncObjectsList.addObje
 /* Don't save okko_3 as it will be provided by the parent asyncObjectsList. */
 for (const obj of gdjs.Intro2Code.GDplayer_9595dialogObjects8) asyncObjectsList.addObject("player_dialog", obj);
 /* Don't save start_game2 as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.Intro2Code.asyncCallback20813020(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.Intro2Code.asyncCallback20822164(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Intro2Code.asyncCallback20812500 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Intro2Code.asyncCallback20821644 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Pult"), gdjs.Intro2Code.GDPultObjects8);
 
 gdjs.copyArray(asyncObjectsList.getObjects("okko_1"), gdjs.Intro2Code.GDokko_95951Objects8);
@@ -470,14 +470,14 @@ for (const obj of gdjs.Intro2Code.GDPultObjects7) asyncObjectsList.addObject("Pu
 /* Don't save okko_3 as it will be provided by the parent asyncObjectsList. */
 /* Don't save player_dialog as it will be provided by the parent asyncObjectsList. */
 /* Don't save start_game2 as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Intro2Code.asyncCallback20812500(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Intro2Code.asyncCallback20821644(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Intro2Code.asyncCallback20811844 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Intro2Code.asyncCallback20820988 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Pult"), gdjs.Intro2Code.GDPultObjects7);
 
 gdjs.copyArray(asyncObjectsList.getObjects("black_pult"), gdjs.Intro2Code.GDblack_9595pultObjects7);
@@ -515,14 +515,14 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 /* Don't save okko_3 as it will be provided by the parent asyncObjectsList. */
 for (const obj of gdjs.Intro2Code.GDplayer_9595dialogObjects6) asyncObjectsList.addObject("player_dialog", obj);
 /* Don't save start_game2 as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(4), (runtimeScene) => (gdjs.Intro2Code.asyncCallback20811844(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(4), (runtimeScene) => (gdjs.Intro2Code.asyncCallback20820988(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Intro2Code.asyncCallback20810660 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Intro2Code.asyncCallback20819804 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("player_dialog"), gdjs.Intro2Code.GDplayer_9595dialogObjects6);
 
 {gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.Intro2Code.mapOfGDgdjs_9546Intro2Code_9546GDplayer_95959595dialogObjects6Objects, 20, 787, "Scene 3 - Okko");
@@ -556,14 +556,14 @@ for (const obj of gdjs.Intro2Code.GDokko_95951Objects5) asyncObjectsList.addObje
 /* Don't save okko_3 as it will be provided by the parent asyncObjectsList. */
 /* Don't save player_dialog as it will be provided by the parent asyncObjectsList. */
 /* Don't save start_game2 as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Intro2Code.asyncCallback20810660(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Intro2Code.asyncCallback20819804(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Intro2Code.asyncCallback20809092 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Intro2Code.asyncCallback20818236 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("BorderedHudGrey"), gdjs.Intro2Code.GDBorderedHudGreyObjects5);
 
 gdjs.copyArray(asyncObjectsList.getObjects("Girl"), gdjs.Intro2Code.GDGirlObjects5);
@@ -624,14 +624,14 @@ for (const obj of gdjs.Intro2Code.GDfadeObjects4) asyncObjectsList.addObject("fa
 /* Don't save player_dialog as it will be provided by the parent asyncObjectsList. */
 /* Don't save scene2_bg as it will be provided by the parent asyncObjectsList. */
 /* Don't save start_game2 as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Intro2Code.asyncCallback20809092(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Intro2Code.asyncCallback20818236(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Intro2Code.asyncCallback20808924 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Intro2Code.asyncCallback20818068 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("fade"), gdjs.Intro2Code.GDfadeObjects4);
 
 {for(var i = 0, len = gdjs.Intro2Code.GDfadeObjects4.length ;i < len;++i) {
@@ -663,14 +663,14 @@ for (const obj of gdjs.Intro2Code.GDfadeObjects3) asyncObjectsList.addObject("fa
 /* Don't save player_dialog as it will be provided by the parent asyncObjectsList. */
 for (const obj of gdjs.Intro2Code.GDscene2_9595bgObjects3) asyncObjectsList.addObject("scene2_bg", obj);
 /* Don't save start_game2 as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(6), (runtimeScene) => (gdjs.Intro2Code.asyncCallback20808924(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(6), (runtimeScene) => (gdjs.Intro2Code.asyncCallback20818068(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Intro2Code.asyncCallback20807236 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Intro2Code.asyncCallback20816380 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("BorderedHudGrey"), gdjs.Intro2Code.GDBorderedHudGreyObjects3);
 
 gdjs.copyArray(asyncObjectsList.getObjects("Girl"), gdjs.Intro2Code.GDGirlObjects3);
@@ -733,14 +733,14 @@ for (const obj of gdjs.Intro2Code.GDfadeObjects2) asyncObjectsList.addObject("fa
 /* Don't save player_dialog as it will be provided by the parent asyncObjectsList. */
 /* Don't save scene2_bg as it will be provided by the parent asyncObjectsList. */
 /* Don't save start_game2 as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Intro2Code.asyncCallback20807236(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Intro2Code.asyncCallback20816380(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Intro2Code.asyncCallback20807164 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Intro2Code.asyncCallback20816308 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("fade"), gdjs.Intro2Code.GDfadeObjects2);
 
 {for(var i = 0, len = gdjs.Intro2Code.GDfadeObjects2.length ;i < len;++i) {
@@ -772,7 +772,7 @@ for (const obj of gdjs.Intro2Code.GDokko_95953Objects1) asyncObjectsList.addObje
 for (const obj of gdjs.Intro2Code.GDplayer_9595dialogObjects1) asyncObjectsList.addObject("player_dialog", obj);
 for (const obj of gdjs.Intro2Code.GDscene2_9595bgObjects1) asyncObjectsList.addObject("scene2_bg", obj);
 for (const obj of gdjs.Intro2Code.GDstart_9595game2Objects1) asyncObjectsList.addObject("start_game2", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.Intro2Code.asyncCallback20807164(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.Intro2Code.asyncCallback20816308(runtimeScene, asyncObjectsList)));
 }
 }
 

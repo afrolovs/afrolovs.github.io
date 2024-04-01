@@ -1214,7 +1214,7 @@ gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ChangeInterv
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(20298324);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(20307468);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ChangeIntervalContext.GDObjectObjects1);
