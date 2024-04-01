@@ -268,6 +268,9 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(4), 
 gdjs.copyArray(asyncObjectsList.getObjects("player_dialog"), gdjs.Intro2Code.GDplayer_9595dialogObjects13);
 
 {for(var i = 0, len = gdjs.Intro2Code.GDplayer_9595dialogObjects13.length ;i < len;++i) {
+    gdjs.Intro2Code.GDplayer_9595dialogObjects13[i].setY(gdjs.Intro2Code.GDplayer_9595dialogObjects13[i].getY() - (24));
+}
+}{for(var i = 0, len = gdjs.Intro2Code.GDplayer_9595dialogObjects13.length ;i < len;++i) {
     gdjs.Intro2Code.GDplayer_9595dialogObjects13[i].getBehavior("Text").setText("Пора найти виновного в этом дерьме.");
 }
 }
