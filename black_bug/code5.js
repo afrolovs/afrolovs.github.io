@@ -2,12 +2,15 @@ gdjs.GameOverCode = {};
 gdjs.GameOverCode.GDStayDeterminedObjects1= [];
 gdjs.GameOverCode.GDStayDeterminedObjects2= [];
 gdjs.GameOverCode.GDStayDeterminedObjects3= [];
+gdjs.GameOverCode.GDStayDeterminedObjects4= [];
 gdjs.GameOverCode.GDTransparentButtonWithWhiteBlueBorderObjects1= [];
 gdjs.GameOverCode.GDTransparentButtonWithWhiteBlueBorderObjects2= [];
 gdjs.GameOverCode.GDTransparentButtonWithWhiteBlueBorderObjects3= [];
+gdjs.GameOverCode.GDTransparentButtonWithWhiteBlueBorderObjects4= [];
 gdjs.GameOverCode.GDfadeObjects1= [];
 gdjs.GameOverCode.GDfadeObjects2= [];
 gdjs.GameOverCode.GDfadeObjects3= [];
+gdjs.GameOverCode.GDfadeObjects4= [];
 
 
 gdjs.GameOverCode.asyncCallback21636340 = function (runtimeScene, asyncObjectsList) {
@@ -33,7 +36,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(7), 
 }
 
 
-};gdjs.GameOverCode.eventsList1 = function(runtimeScene) {
+};gdjs.GameOverCode.eventsList1 = function(runtimeScene, asyncObjectsList) {
 
 {
 
@@ -42,8 +45,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1)) == 8;
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 0);
-}{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(2), true);
+{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(2), true);
 }{gdjs.evtTools.sound.preloadMusic(runtimeScene, "boss2.AAC");
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Boss", true);
 }}
@@ -58,15 +60,34 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1)) != 8;
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 0);
-}{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(2), true);
+{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(2), true);
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Game", true);
 }}
 
 }
 
 
-};gdjs.GameOverCode.eventsList2 = function(runtimeScene) {
+};gdjs.GameOverCode.asyncCallback13733988 = function (runtimeScene, asyncObjectsList) {
+
+{ //Subevents
+gdjs.GameOverCode.eventsList1(runtimeScene, asyncObjectsList);} //End of subevents
+}
+gdjs.GameOverCode.eventsList2 = function(runtimeScene) {
+
+{
+
+
+{
+{
+const asyncObjectsList = new gdjs.LongLivedObjectsList();
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.GameOverCode.asyncCallback13733988(runtimeScene, asyncObjectsList)));
+}
+}
+
+}
+
+
+};gdjs.GameOverCode.eventsList3 = function(runtimeScene) {
 
 {
 
@@ -83,7 +104,7 @@ gdjs.copyArray(runtimeScene.getObjects("TransparentButtonWithWhiteBlueBorder"), 
     gdjs.GameOverCode.GDTransparentButtonWithWhiteBlueBorderObjects1[i].getBehavior("Opacity").setOpacity(0);
 }
 }{gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 0);
-}{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "game_over2.AAC", 0, true, 100, 1);
+}{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "game_over2.AAC", 0, true, 80, 1);
 }{for(var i = 0, len = gdjs.GameOverCode.GDStayDeterminedObjects1.length ;i < len;++i) {
     gdjs.GameOverCode.GDStayDeterminedObjects1[i].getBehavior("Text_AutoTyping").ChangeInterval(0.2, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
@@ -119,7 +140,7 @@ if (isConditionTrue_0) {
 }{gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 0);
 }
 { //Subevents
-gdjs.GameOverCode.eventsList1(runtimeScene);} //End of subevents
+gdjs.GameOverCode.eventsList2(runtimeScene);} //End of subevents
 }
 
 }
@@ -158,14 +179,17 @@ runtimeScene.getOnceTriggers().startNewFrame();
 gdjs.GameOverCode.GDStayDeterminedObjects1.length = 0;
 gdjs.GameOverCode.GDStayDeterminedObjects2.length = 0;
 gdjs.GameOverCode.GDStayDeterminedObjects3.length = 0;
+gdjs.GameOverCode.GDStayDeterminedObjects4.length = 0;
 gdjs.GameOverCode.GDTransparentButtonWithWhiteBlueBorderObjects1.length = 0;
 gdjs.GameOverCode.GDTransparentButtonWithWhiteBlueBorderObjects2.length = 0;
 gdjs.GameOverCode.GDTransparentButtonWithWhiteBlueBorderObjects3.length = 0;
+gdjs.GameOverCode.GDTransparentButtonWithWhiteBlueBorderObjects4.length = 0;
 gdjs.GameOverCode.GDfadeObjects1.length = 0;
 gdjs.GameOverCode.GDfadeObjects2.length = 0;
 gdjs.GameOverCode.GDfadeObjects3.length = 0;
+gdjs.GameOverCode.GDfadeObjects4.length = 0;
 
-gdjs.GameOverCode.eventsList2(runtimeScene);
+gdjs.GameOverCode.eventsList3(runtimeScene);
 
 return;
 
