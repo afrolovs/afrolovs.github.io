@@ -33,6 +33,8 @@ gdjs.IntroCode.GDstart_9595gameObjects1= [];
 gdjs.IntroCode.GDstart_9595gameObjects2= [];
 gdjs.IntroCode.GDsound_9595recommendObjects1= [];
 gdjs.IntroCode.GDsound_9595recommendObjects2= [];
+gdjs.IntroCode.GDNewTextObjects1= [];
+gdjs.IntroCode.GDNewTextObjects2= [];
 gdjs.IntroCode.GDfadeObjects1= [];
 gdjs.IntroCode.GDfadeObjects2= [];
 
@@ -114,7 +116,7 @@ gdjs.copyArray(runtimeScene.getObjects("trico"), gdjs.IntroCode.GDtricoObjects1)
     gdjs.IntroCode.GDfadeObjects1[i].getBehavior("Opacity").setOpacity(0);
 }
 }{gdjs.evtTools.camera.centerCamera(runtimeScene, (gdjs.IntroCode.GDcam_9595centerObjects1.length !== 0 ? gdjs.IntroCode.GDcam_9595centerObjects1[0] : null), true, "", 0);
-}{gdjs.evtTools.sound.playMusic(runtimeScene, "zastavka.AAC", false, 100, 1);
+}{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "zastavka.AAC", 0, false, 100, 1);
 }}
 
 }
@@ -273,6 +275,8 @@ gdjs.IntroCode.GDstart_9595gameObjects1.length = 0;
 gdjs.IntroCode.GDstart_9595gameObjects2.length = 0;
 gdjs.IntroCode.GDsound_9595recommendObjects1.length = 0;
 gdjs.IntroCode.GDsound_9595recommendObjects2.length = 0;
+gdjs.IntroCode.GDNewTextObjects1.length = 0;
+gdjs.IntroCode.GDNewTextObjects2.length = 0;
 gdjs.IntroCode.GDfadeObjects1.length = 0;
 gdjs.IntroCode.GDfadeObjects2.length = 0;
 
