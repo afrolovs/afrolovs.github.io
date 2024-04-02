@@ -11,7 +11,7 @@ gdjs.evtsExt__Custom_Extension__ShowRightButton.GDRightJoystickObjects2= [];
 
 
 gdjs.evtsExt__Custom_Extension__ShowRightButton.mapOfGDgdjs_9546evtsExt_9595_9595Custom_9595Extension_9595_9595ShowRightButton_9546GDRightJoystickObjects1Objects = Hashtable.newFrom({"RightJoystick": gdjs.evtsExt__Custom_Extension__ShowRightButton.GDRightJoystickObjects1});
-gdjs.evtsExt__Custom_Extension__ShowRightButton.asyncCallback19750292 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+gdjs.evtsExt__Custom_Extension__ShowRightButton.asyncCallback19826044 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("RightJoystick"), gdjs.evtsExt__Custom_Extension__ShowRightButton.GDRightJoystickObjects2);
 
 {for(var i = 0, len = gdjs.evtsExt__Custom_Extension__ShowRightButton.GDRightJoystickObjects2.length ;i < len;++i) {
@@ -30,7 +30,7 @@ gdjs.evtsExt__Custom_Extension__ShowRightButton.eventsList0 = function(runtimeSc
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.evtsExt__Custom_Extension__ShowRightButton.GDRightJoystickObjects1) asyncObjectsList.addObject("RightJoystick", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.evtsExt__Custom_Extension__ShowRightButton.asyncCallback19750292(runtimeScene, eventsFunctionContext, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.evtsExt__Custom_Extension__ShowRightButton.asyncCallback19826044(runtimeScene, eventsFunctionContext, asyncObjectsList)));
 }
 }
 
@@ -44,7 +44,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(19800700);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(19876452);
 }
 if (isConditionTrue_0) {
 gdjs.evtsExt__Custom_Extension__ShowRightButton.GDRightJoystickObjects1.length = 0;

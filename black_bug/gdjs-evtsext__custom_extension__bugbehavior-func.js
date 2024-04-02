@@ -10,7 +10,7 @@ gdjs.evtsExt__Custom_Extension__BugBehavior.GDBugObjects1= [];
 gdjs.evtsExt__Custom_Extension__BugBehavior.GDBugObjects2= [];
 
 
-gdjs.evtsExt__Custom_Extension__BugBehavior.asyncCallback20264756 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+gdjs.evtsExt__Custom_Extension__BugBehavior.asyncCallback20340508 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Bug"), gdjs.evtsExt__Custom_Extension__BugBehavior.GDBugObjects2);
 
 {for(var i = 0, len = gdjs.evtsExt__Custom_Extension__BugBehavior.GDBugObjects2.length ;i < len;++i) {
@@ -29,7 +29,7 @@ gdjs.evtsExt__Custom_Extension__BugBehavior.eventsList0 = function(runtimeScene,
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.evtsExt__Custom_Extension__BugBehavior.GDBugObjects1) asyncObjectsList.addObject("Bug", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.evtsExt__Custom_Extension__BugBehavior.asyncCallback20264756(runtimeScene, eventsFunctionContext, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.evtsExt__Custom_Extension__BugBehavior.asyncCallback20340508(runtimeScene, eventsFunctionContext, asyncObjectsList)));
 }
 }
 

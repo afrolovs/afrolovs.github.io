@@ -12,7 +12,7 @@ gdjs.evtsExt__Custom_Extension__AddBugScore.GDScore_9595LabelObjects1= [];
 gdjs.evtsExt__Custom_Extension__AddBugScore.GDScore_9595LabelObjects2= [];
 
 
-gdjs.evtsExt__Custom_Extension__AddBugScore.asyncCallback19597372 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+gdjs.evtsExt__Custom_Extension__AddBugScore.asyncCallback19673124 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Score_Icon"), gdjs.evtsExt__Custom_Extension__AddBugScore.GDScore_9595IconObjects2);
 
 gdjs.copyArray(asyncObjectsList.getObjects("Score_Label"), gdjs.evtsExt__Custom_Extension__AddBugScore.GDScore_9595LabelObjects2);
@@ -37,7 +37,7 @@ gdjs.evtsExt__Custom_Extension__AddBugScore.eventsList0 = function(runtimeScene,
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.evtsExt__Custom_Extension__AddBugScore.GDScore_9595IconObjects1) asyncObjectsList.addObject("Score_Icon", obj);
 for (const obj of gdjs.evtsExt__Custom_Extension__AddBugScore.GDScore_9595LabelObjects1) asyncObjectsList.addObject("Score_Label", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.evtsExt__Custom_Extension__AddBugScore.asyncCallback19597372(runtimeScene, eventsFunctionContext, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.evtsExt__Custom_Extension__AddBugScore.asyncCallback19673124(runtimeScene, eventsFunctionContext, asyncObjectsList)));
 }
 }
 
@@ -51,7 +51,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(19891196);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(19966948);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("Score_Icon"), gdjs.evtsExt__Custom_Extension__AddBugScore.GDScore_9595IconObjects1);
