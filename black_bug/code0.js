@@ -37,7 +37,26 @@ gdjs.IntroCode.GDfadeObjects1= [];
 gdjs.IntroCode.GDfadeObjects2= [];
 
 
+gdjs.IntroCode.asyncCallback26056828 = function (runtimeScene, asyncObjectsList) {
+{gdjs.evtTools.window.setFullScreen(runtimeScene, true, true);
+}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Intro2", false);
+}}
 gdjs.IntroCode.eventsList0 = function(runtimeScene) {
+
+{
+
+
+{
+{
+const asyncObjectsList = new gdjs.LongLivedObjectsList();
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.IntroCode.asyncCallback26056828(runtimeScene, asyncObjectsList)));
+}
+}
+
+}
+
+
+};gdjs.IntroCode.eventsList1 = function(runtimeScene) {
 
 {
 
@@ -188,10 +207,11 @@ gdjs.copyArray(runtimeScene.getObjects("fade"), gdjs.IntroCode.GDfadeObjects1);
 {for(var i = 0, len = gdjs.IntroCode.GDfadeObjects1.length ;i < len;++i) {
     gdjs.IntroCode.GDfadeObjects1[i].getBehavior("Tween").addObjectOpacityTween2("fadetoblack", 255, "easeOutQuad", 1, false);
 }
-}{gdjs.deviceVibration.startVibration(100);
-}{gdjs.evtTools.window.setFullScreen(runtimeScene, true, true);
-}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Intro2", false);
-}}
+}{gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 0);
+}
+{ //Subevents
+gdjs.IntroCode.eventsList0(runtimeScene);} //End of subevents
+}
 
 }
 
@@ -256,7 +276,7 @@ gdjs.IntroCode.GDsound_9595recommendObjects2.length = 0;
 gdjs.IntroCode.GDfadeObjects1.length = 0;
 gdjs.IntroCode.GDfadeObjects2.length = 0;
 
-gdjs.IntroCode.eventsList0(runtimeScene);
+gdjs.IntroCode.eventsList1(runtimeScene);
 
 return;
 
