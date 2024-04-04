@@ -16,7 +16,7 @@ gdjs.evtsExt__Custom_Extension__DrawCenterCallout.GDCenterTextObjects7= [];
 
 
 gdjs.evtsExt__Custom_Extension__DrawCenterCallout.mapOfGDgdjs_9546evtsExt_9595_9595Custom_9595Extension_9595_9595DrawCenterCallout_9546GDCenterTextObjects1Objects = Hashtable.newFrom({"CenterText": gdjs.evtsExt__Custom_Extension__DrawCenterCallout.GDCenterTextObjects1});
-gdjs.evtsExt__Custom_Extension__DrawCenterCallout.asyncCallback20328620 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+gdjs.evtsExt__Custom_Extension__DrawCenterCallout.asyncCallback20348172 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("CenterText"), gdjs.evtsExt__Custom_Extension__DrawCenterCallout.GDCenterTextObjects7);
 
 {for(var i = 0, len = gdjs.evtsExt__Custom_Extension__DrawCenterCallout.GDCenterTextObjects7.length ;i < len;++i) {
@@ -39,14 +39,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.evtsExt__Custom_Extension__DrawCenterCallout.GDCenterTextObjects6) asyncObjectsList.addObject("CenterText", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.evtsExt__Custom_Extension__DrawCenterCallout.asyncCallback20328620(runtimeScene, eventsFunctionContext, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.evtsExt__Custom_Extension__DrawCenterCallout.asyncCallback20348172(runtimeScene, eventsFunctionContext, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.evtsExt__Custom_Extension__DrawCenterCallout.asyncCallback20327756 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+};gdjs.evtsExt__Custom_Extension__DrawCenterCallout.asyncCallback20347308 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("CenterText"), gdjs.evtsExt__Custom_Extension__DrawCenterCallout.GDCenterTextObjects6);
 
 {for(var i = 0, len = gdjs.evtsExt__Custom_Extension__DrawCenterCallout.GDCenterTextObjects6.length ;i < len;++i) {
@@ -66,14 +66,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.evtsExt__Custom_Extension__DrawCenterCallout.GDCenterTextObjects5) asyncObjectsList.addObject("CenterText", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.evtsExt__Custom_Extension__DrawCenterCallout.asyncCallback20327756(runtimeScene, eventsFunctionContext, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.evtsExt__Custom_Extension__DrawCenterCallout.asyncCallback20347308(runtimeScene, eventsFunctionContext, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.evtsExt__Custom_Extension__DrawCenterCallout.asyncCallback20326892 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+};gdjs.evtsExt__Custom_Extension__DrawCenterCallout.asyncCallback20346444 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("CenterText"), gdjs.evtsExt__Custom_Extension__DrawCenterCallout.GDCenterTextObjects5);
 
 {for(var i = 0, len = gdjs.evtsExt__Custom_Extension__DrawCenterCallout.GDCenterTextObjects5.length ;i < len;++i) {
@@ -93,14 +93,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.evtsExt__Custom_Extension__DrawCenterCallout.GDCenterTextObjects4) asyncObjectsList.addObject("CenterText", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.evtsExt__Custom_Extension__DrawCenterCallout.asyncCallback20326892(runtimeScene, eventsFunctionContext, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.evtsExt__Custom_Extension__DrawCenterCallout.asyncCallback20346444(runtimeScene, eventsFunctionContext, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.evtsExt__Custom_Extension__DrawCenterCallout.asyncCallback20326028 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+};gdjs.evtsExt__Custom_Extension__DrawCenterCallout.asyncCallback20345580 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("CenterText"), gdjs.evtsExt__Custom_Extension__DrawCenterCallout.GDCenterTextObjects4);
 
 {for(var i = 0, len = gdjs.evtsExt__Custom_Extension__DrawCenterCallout.GDCenterTextObjects4.length ;i < len;++i) {
@@ -120,14 +120,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.evtsExt__Custom_Extension__DrawCenterCallout.GDCenterTextObjects3) asyncObjectsList.addObject("CenterText", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.evtsExt__Custom_Extension__DrawCenterCallout.asyncCallback20326028(runtimeScene, eventsFunctionContext, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.evtsExt__Custom_Extension__DrawCenterCallout.asyncCallback20345580(runtimeScene, eventsFunctionContext, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.evtsExt__Custom_Extension__DrawCenterCallout.asyncCallback20325028 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+};gdjs.evtsExt__Custom_Extension__DrawCenterCallout.asyncCallback20344580 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("CenterText"), gdjs.evtsExt__Custom_Extension__DrawCenterCallout.GDCenterTextObjects3);
 
 {for(var i = 0, len = gdjs.evtsExt__Custom_Extension__DrawCenterCallout.GDCenterTextObjects3.length ;i < len;++i) {
@@ -147,14 +147,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.evtsExt__Custom_Extension__DrawCenterCallout.GDCenterTextObjects2) asyncObjectsList.addObject("CenterText", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.evtsExt__Custom_Extension__DrawCenterCallout.asyncCallback20325028(runtimeScene, eventsFunctionContext, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.evtsExt__Custom_Extension__DrawCenterCallout.asyncCallback20344580(runtimeScene, eventsFunctionContext, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.evtsExt__Custom_Extension__DrawCenterCallout.asyncCallback20324164 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+};gdjs.evtsExt__Custom_Extension__DrawCenterCallout.asyncCallback20343740 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("CenterText"), gdjs.evtsExt__Custom_Extension__DrawCenterCallout.GDCenterTextObjects2);
 
 {for(var i = 0, len = gdjs.evtsExt__Custom_Extension__DrawCenterCallout.GDCenterTextObjects2.length ;i < len;++i) {
@@ -173,7 +173,7 @@ gdjs.evtsExt__Custom_Extension__DrawCenterCallout.eventsList5 = function(runtime
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.evtsExt__Custom_Extension__DrawCenterCallout.GDCenterTextObjects1) asyncObjectsList.addObject("CenterText", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.evtsExt__Custom_Extension__DrawCenterCallout.asyncCallback20324164(runtimeScene, eventsFunctionContext, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.evtsExt__Custom_Extension__DrawCenterCallout.asyncCallback20343740(runtimeScene, eventsFunctionContext, asyncObjectsList)));
 }
 }
 
@@ -187,7 +187,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(19930548);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(19950308);
 }
 if (isConditionTrue_0) {
 gdjs.evtsExt__Custom_Extension__DrawCenterCallout.GDCenterTextObjects1.length = 0;

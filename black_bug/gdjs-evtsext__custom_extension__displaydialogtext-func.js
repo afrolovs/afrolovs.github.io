@@ -15,7 +15,7 @@ gdjs.evtsExt__Custom_Extension__DisplayDialogText.GDPlayerObjects3= [];
 
 
 gdjs.evtsExt__Custom_Extension__DisplayDialogText.mapOfGDgdjs_9546evtsExt_9595_9595Custom_9595Extension_9595_9595DisplayDialogText_9546GDDialogTextObjects1Objects = Hashtable.newFrom({"DialogText": gdjs.evtsExt__Custom_Extension__DisplayDialogText.GDDialogTextObjects1});
-gdjs.evtsExt__Custom_Extension__DisplayDialogText.asyncCallback20337628 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+gdjs.evtsExt__Custom_Extension__DisplayDialogText.asyncCallback20356876 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("DialogText"), gdjs.evtsExt__Custom_Extension__DisplayDialogText.GDDialogTextObjects3);
 
 {for(var i = 0, len = gdjs.evtsExt__Custom_Extension__DisplayDialogText.GDDialogTextObjects3.length ;i < len;++i) {
@@ -32,14 +32,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.evtsExt__Custom_Extension__DisplayDialogText.GDDialogTextObjects2) asyncObjectsList.addObject("DialogText", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.evtsExt__Custom_Extension__DisplayDialogText.asyncCallback20337628(runtimeScene, eventsFunctionContext, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.evtsExt__Custom_Extension__DisplayDialogText.asyncCallback20356876(runtimeScene, eventsFunctionContext, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.evtsExt__Custom_Extension__DisplayDialogText.asyncCallback20336644 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+};gdjs.evtsExt__Custom_Extension__DisplayDialogText.asyncCallback20355892 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("DialogText"), gdjs.evtsExt__Custom_Extension__DisplayDialogText.GDDialogTextObjects2);
 
 {for(var i = 0, len = gdjs.evtsExt__Custom_Extension__DisplayDialogText.GDDialogTextObjects2.length ;i < len;++i) {
@@ -58,7 +58,7 @@ gdjs.evtsExt__Custom_Extension__DisplayDialogText.eventsList1 = function(runtime
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.evtsExt__Custom_Extension__DisplayDialogText.GDDialogTextObjects1) asyncObjectsList.addObject("DialogText", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.evtsExt__Custom_Extension__DisplayDialogText.asyncCallback20336644(runtimeScene, eventsFunctionContext, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.evtsExt__Custom_Extension__DisplayDialogText.asyncCallback20355892(runtimeScene, eventsFunctionContext, asyncObjectsList)));
 }
 }
 
@@ -72,7 +72,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), 
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(20333908);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(20353156);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("Player"), gdjs.evtsExt__Custom_Extension__DisplayDialogText.GDPlayerObjects1);

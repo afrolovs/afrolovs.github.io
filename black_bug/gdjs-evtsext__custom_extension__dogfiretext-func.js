@@ -21,7 +21,7 @@ gdjs.evtsExt__Custom_Extension__DogFireText.eventsList0 = function(runtimeScene,
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(19992068);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(20004444);
 }
 if (isConditionTrue_0) {
 gdjs.evtsExt__Custom_Extension__DogFireText.GDCenterTextObjects1.length = 0;

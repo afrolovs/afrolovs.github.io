@@ -39,7 +39,7 @@ gdjs.IntroCode.GDfadeObjects1= [];
 gdjs.IntroCode.GDfadeObjects2= [];
 
 
-gdjs.IntroCode.asyncCallback26056828 = function (runtimeScene, asyncObjectsList) {
+gdjs.IntroCode.asyncCallback20856980 = function (runtimeScene, asyncObjectsList) {
 {gdjs.evtTools.window.setFullScreen(runtimeScene, true, true);
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Intro2", false);
 }}
@@ -51,7 +51,7 @@ gdjs.IntroCode.eventsList0 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.IntroCode.asyncCallback26056828(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.IntroCode.asyncCallback20856980(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -95,7 +95,7 @@ gdjs.copyArray(runtimeScene.getObjects("train"), gdjs.IntroCode.GDtrainObjects1)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20830924);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20850612);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("cam_center"), gdjs.IntroCode.GDcam_9595centerObjects1);
