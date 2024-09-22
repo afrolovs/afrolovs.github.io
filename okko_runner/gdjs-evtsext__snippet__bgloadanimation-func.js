@@ -60,7 +60,7 @@ let isConditionTrue_0 = false;
 };gdjs.evtsExt__Snippet__BGLoadAnimation.asyncCallback15666940 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(eventsFunctionContext.localVariables);
 gdjs.copyArray(eventsFunctionContext.getObjects("SberLogo"), gdjs.evtsExt__Snippet__BGLoadAnimation.GDSberLogoObjects5);
-{gdjs.evtsExt__Snippet___RenderSberLogo.func(runtimeScene, gdjs.evtsExt__Snippet__BGLoadAnimation.mapOfGDgdjs_9546evtsExt_9595_9595Snippet_9595_9595BGLoadAnimation_9546GDSberLogoObjects5Objects, eventsFunctionContext.getBehaviorName("SberLogo_Tween"), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+{
 }
 { //Subevents
 gdjs.evtsExt__Snippet__BGLoadAnimation.eventsList0(runtimeScene, eventsFunctionContext, asyncObjectsList);} //End of subevents
