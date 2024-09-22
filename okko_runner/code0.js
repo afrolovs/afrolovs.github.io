@@ -2661,7 +2661,6 @@ if (isConditionTrue_0) {
 gdjs.The_32gameCode.mapOfGDgdjs_9546The_959532gameCode_9546GDplaceholderObjects2Objects = Hashtable.newFrom({"placeholder": gdjs.The_32gameCode.GDplaceholderObjects2});
 gdjs.The_32gameCode.mapOfGDgdjs_9546The_959532gameCode_9546GDRoadObjects2Objects = Hashtable.newFrom({"Road": gdjs.The_32gameCode.GDRoadObjects2});
 gdjs.The_32gameCode.mapOfGDgdjs_9546The_959532gameCode_9546GDStartCounterObjects2Objects = Hashtable.newFrom({"StartCounter": gdjs.The_32gameCode.GDStartCounterObjects2});
-gdjs.The_32gameCode.mapOfGDgdjs_9546The_959532gameCode_9546GDSberPrimeObjects2Objects = Hashtable.newFrom({"SberPrime": gdjs.The_32gameCode.GDSberPrimeObjects2});
 gdjs.The_32gameCode.asyncCallback15799820 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.The_32gameCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Coin"), gdjs.The_32gameCode.GDCoinObjects3);
@@ -2899,7 +2898,6 @@ gdjs.copyArray(runtimeScene.getObjects("Mobile_Left"), gdjs.The_32gameCode.GDMob
 gdjs.copyArray(runtimeScene.getObjects("Mobile_Right"), gdjs.The_32gameCode.GDMobile_9595RightObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.The_32gameCode.GDPlayerObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Road"), gdjs.The_32gameCode.GDRoadObjects2);
-gdjs.copyArray(runtimeScene.getObjects("SberPrime"), gdjs.The_32gameCode.GDSberPrimeObjects2);
 gdjs.copyArray(runtimeScene.getObjects("StartCounter"), gdjs.The_32gameCode.GDStartCounterObjects2);
 gdjs.copyArray(runtimeScene.getObjects("placeholder"), gdjs.The_32gameCode.GDplaceholderObjects2);
 gdjs.copyArray(runtimeScene.getObjects("vod_posters1"), gdjs.The_32gameCode.GDvod_9595posters1Objects2);
@@ -2919,7 +2917,7 @@ gdjs.copyArray(runtimeScene.getObjects("vod_posters2"), gdjs.The_32gameCode.GDvo
 }
 }{gdjs.evtTools.camera.setCameraZoom(runtimeScene, 3, "", 0);
 }{gdjs.evtTools.tween.tweenCameraZoom2(runtimeScene, "CameraTween", 1, "", "easeOutQuad", 1);
-}{gdjs.evtsExt__Snippet__BGLoadAnimation.func(runtimeScene, gdjs.The_32gameCode.mapOfGDgdjs_9546The_959532gameCode_9546GDvod_95959595posters1Objects2ObjectsGDgdjs_9546The_959532gameCode_9546GDvod_95959595posters2Objects2Objects, "Tween", gdjs.The_32gameCode.mapOfGDgdjs_9546The_959532gameCode_9546GDplaceholderObjects2Objects, "Tween", gdjs.The_32gameCode.mapOfGDgdjs_9546The_959532gameCode_9546GDRoadObjects2Objects, "Tween", gdjs.The_32gameCode.mapOfGDgdjs_9546The_959532gameCode_9546GDStartCounterObjects2Objects, "Tween", gdjs.The_32gameCode.mapOfGDgdjs_9546The_959532gameCode_9546GDSberPrimeObjects2Objects, "Tween", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{gdjs.evtsExt__Snippet__BGLoadAnimation.func(runtimeScene, gdjs.The_32gameCode.mapOfGDgdjs_9546The_959532gameCode_9546GDvod_95959595posters1Objects2ObjectsGDgdjs_9546The_959532gameCode_9546GDvod_95959595posters2Objects2Objects, "Tween", gdjs.The_32gameCode.mapOfGDgdjs_9546The_959532gameCode_9546GDplaceholderObjects2Objects, "Tween", gdjs.The_32gameCode.mapOfGDgdjs_9546The_959532gameCode_9546GDRoadObjects2Objects, "Tween", gdjs.The_32gameCode.mapOfGDgdjs_9546The_959532gameCode_9546GDStartCounterObjects2Objects, "Tween", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 { //Subevents
 gdjs.The_32gameCode.eventsList65(runtimeScene);} //End of subevents
