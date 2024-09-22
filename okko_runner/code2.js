@@ -18,7 +18,7 @@ gdjs.LoginFormCode.GDProgressObjects3= [];
 
 
 gdjs.LoginFormCode.mapOfGDgdjs_9546LoginFormCode_9546GDProgressObjects2Objects = Hashtable.newFrom({"Progress": gdjs.LoginFormCode.GDProgressObjects2});
-gdjs.LoginFormCode.asyncCallback16017540 = function (runtimeScene, asyncObjectsList) {
+gdjs.LoginFormCode.asyncCallback13412604 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.LoginFormCode.localVariables);
 {runtimeScene.getGame().getVariables().getFromIndex(2).setBoolean(true);
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Main Menu", true);
@@ -33,7 +33,7 @@ gdjs.LoginFormCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.LoginFormCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.6), (runtimeScene) => (gdjs.LoginFormCode.asyncCallback16017540(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.6), (runtimeScene) => (gdjs.LoginFormCode.asyncCallback13412604(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -51,7 +51,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtsExt__InputValidation__IsValidEmail.func(runtimeScene, (( gdjs.LoginFormCode.GDNameInputObjects2.length === 0 ) ? "" :gdjs.LoginFormCode.GDNameInputObjects2[0].getBehavior("Text").getText()), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16016148);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13410604);
 }
 }
 if (isConditionTrue_0) {
@@ -93,7 +93,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtsExt__InputValidation__IsValidEmail.func(runtimeScene, (( gdjs.LoginFormCode.GDNameInputObjects1.length === 0 ) ? "" :gdjs.LoginFormCode.GDNameInputObjects1[0].getBehavior("Text").getText()), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16018468);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13413308);
 }
 }
 if (isConditionTrue_0) {
@@ -113,7 +113,7 @@ gdjs.copyArray(runtimeScene.getObjects("ErrorText"), gdjs.LoginFormCode.GDErrorT
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16014668);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13408860);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("ErrorText"), gdjs.LoginFormCode.GDErrorTextObjects1);
