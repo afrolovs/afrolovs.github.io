@@ -126,8 +126,7 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.network.sendAsyncRequest("https://okko.vernosti.keenetic.link/next", "", "GET", "", gdjs.VariablesContainer.badVariable, gdjs.VariablesContainer.badVariable);
-}{gdjs.evtsExt__AdvancedHTTP__CreateRequest.func(runtimeScene, "next", "https://okko.vernosti.keenetic.link/next", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+{gdjs.evtsExt__AdvancedHTTP__CreateRequest.func(runtimeScene, "next", "https://okko.vernosti.keenetic.link/next", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }{gdjs.evtsExt__AdvancedHTTP__UseCORSBypass.func(runtimeScene, "next", true, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }{gdjs.evtsExt__AdvancedHTTP__SetRequestMethod.func(runtimeScene, "next", "GET", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
