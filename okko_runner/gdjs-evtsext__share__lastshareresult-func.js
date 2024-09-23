@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__Share__LastShareResult !== "undefined") {
 gdjs.evtsExt__Share__LastShareResult = {};
 
 
-gdjs.evtsExt__Share__LastShareResult.userFunc0xb90810 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Share__LastShareResult.userFunc0xbd2f58 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 gdjs._shareExtension = gdjs._shareExtension || {
     lastShareResult: '',
@@ -21,7 +21,7 @@ gdjs.evtsExt__Share__LastShareResult.eventsList0 = function(runtimeScene, events
 {
 
 
-gdjs.evtsExt__Share__LastShareResult.userFunc0xb90810(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Share__LastShareResult.userFunc0xbd2f58(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

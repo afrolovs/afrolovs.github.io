@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__InputValidation__ToAlphanumerical !== "undefined") {
 gdjs.evtsExt__InputValidation__ToAlphanumerical = {};
 
 
-gdjs.evtsExt__InputValidation__ToAlphanumerical.userFunc0xb90810 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__InputValidation__ToAlphanumerical.userFunc0xab51a0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = eventsFunctionContext.getArgument("text").replace(/\W/g, '');
 };
@@ -17,7 +17,7 @@ gdjs.evtsExt__InputValidation__ToAlphanumerical.eventsList0 = function(runtimeSc
 {
 
 
-gdjs.evtsExt__InputValidation__ToAlphanumerical.userFunc0xb90810(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__InputValidation__ToAlphanumerical.userFunc0xab51a0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

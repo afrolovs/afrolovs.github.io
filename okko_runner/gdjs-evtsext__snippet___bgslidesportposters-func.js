@@ -30,7 +30,7 @@ eventsFunctionContext.localVariables.push(variables);
 }
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13102004);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13101964);
 }
 if (isConditionTrue_0) {
 gdjs.evtsExt__Snippet___BGSlideSportPosters.GDLeftObjects1.length = 0;
