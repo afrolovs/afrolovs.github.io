@@ -25,16 +25,17 @@ var gdjs;(function(n){let a;(function(s){class r{constructor(e,t,i){this._linkEl
         }
 
         #watermark-background {
-          position: absolute;
+          position: unset;
+          display: none;
           pointer-events: none;
-          width: 100%;
+          width: 0%;
           transition-property: opacity;
           transition-duration: ${this._fadeDuration}s;
         }
 
         #watermark-link {
           all: unset;
-          position: absolute;
+          display: none;
           cursor: pointer;
           pointer-events: none;
           user-select: none;
@@ -44,7 +45,7 @@ var gdjs;(function(n){let a;(function(s){class r{constructor(e,t,i){this._linkEl
         }
 
         #watermark {
-          display: flex;
+          display: none;
           flex-direction: row;
           align-items: center;
           transition-property: opacity;
@@ -53,12 +54,13 @@ var gdjs;(function(n){let a;(function(s){class r{constructor(e,t,i){this._linkEl
         }
 
         #watermark > div {
-          display: flex;
+          display: none;
           flex-direction: column;
           margin-left: 5px;
         }
 
         #watermark span {
+          display: none;
           color: white;
           font-family: 'Tahoma', 'Gill sans', 'Helvetica', 'Arial';
           font-size: ${this._textFontSize}px;
@@ -71,6 +73,7 @@ var gdjs;(function(n){let a;(function(s){class r{constructor(e,t,i){this._linkEl
         }
 
         #watermark svg.spinning {
+          display: none;
           animation-name: spin;
           animation-direction: normal;
           animation-duration: 5s;
@@ -84,12 +87,14 @@ var gdjs;(function(n){let a;(function(s){class r{constructor(e,t,i){this._linkEl
 
         @media (hover: hover) {
           #watermark span {
+            display: none;
             text-decoration: underline;
             text-decoration-style: solid;
             text-decoration-color: transparent;
           }
 
           #watermark:hover span {
+            display: none;
             text-decoration-color: white;
 
             /* For Safari */
