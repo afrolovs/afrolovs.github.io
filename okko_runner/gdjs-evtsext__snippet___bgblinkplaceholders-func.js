@@ -16,7 +16,7 @@ gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.GDPHObjects7= [];
 
 
 gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.mapOfGDgdjs_9546evtsExt_9595_9595Snippet_9595_9595_9595BGBlinkPlaceHolders_9546GDPHObjects1Objects = Hashtable.newFrom({"PH": gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.GDPHObjects1});
-gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.asyncCallback13087596 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.asyncCallback13318220 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(eventsFunctionContext.localVariables);
 eventsFunctionContext.localVariables.length = 0;
 }
@@ -30,14 +30,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(eventsFunctionContext.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.asyncCallback13087596(runtimeScene, eventsFunctionContext, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.asyncCallback13318220(runtimeScene, eventsFunctionContext, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.asyncCallback13087196 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+};gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.asyncCallback13317820 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(eventsFunctionContext.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("PH"), gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.GDPHObjects6);
 
@@ -60,7 +60,7 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(eventsFunctionContext.localVariables);
 for (const obj of gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.GDPHObjects5) asyncObjectsList.addObject("PH", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.asyncCallback13087196(runtimeScene, eventsFunctionContext, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.asyncCallback13317820(runtimeScene, eventsFunctionContext, asyncObjectsList)));
 }
 }
 
@@ -74,7 +74,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13086812);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13317436);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(asyncObjectsList.getObjects("PH"), gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.GDPHObjects5);
@@ -90,7 +90,7 @@ gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.eventsList1(runtimeScene, eventsFunc
 }
 
 
-};gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.asyncCallback13086300 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+};gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.asyncCallback13316924 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(eventsFunctionContext.localVariables);
 
 { //Subevents
@@ -108,14 +108,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(eventsFunctionContext.localVariables);
 for (const obj of gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.GDPHObjects4) asyncObjectsList.addObject("PH", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.asyncCallback13086300(runtimeScene, eventsFunctionContext, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.asyncCallback13316924(runtimeScene, eventsFunctionContext, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.asyncCallback13085900 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+};gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.asyncCallback13316524 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(eventsFunctionContext.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("PH"), gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.GDPHObjects4);
 
@@ -138,7 +138,7 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(eventsFunctionContext.localVariables);
 for (const obj of gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.GDPHObjects3) asyncObjectsList.addObject("PH", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.asyncCallback13085900(runtimeScene, eventsFunctionContext, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.asyncCallback13316524(runtimeScene, eventsFunctionContext, asyncObjectsList)));
 }
 }
 
@@ -152,7 +152,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13085516);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13316140);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(asyncObjectsList.getObjects("PH"), gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.GDPHObjects3);
@@ -168,7 +168,7 @@ gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.eventsList4(runtimeScene, eventsFunc
 }
 
 
-};gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.asyncCallback13085004 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+};gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.asyncCallback13315628 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(eventsFunctionContext.localVariables);
 
 { //Subevents
@@ -186,14 +186,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(eventsFunctionContext.localVariables);
 for (const obj of gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.GDPHObjects2) asyncObjectsList.addObject("PH", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.asyncCallback13085004(runtimeScene, eventsFunctionContext, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.asyncCallback13315628(runtimeScene, eventsFunctionContext, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.asyncCallback13084548 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+};gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.asyncCallback13315172 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(eventsFunctionContext.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("PH"), gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.GDPHObjects2);
 
@@ -215,7 +215,7 @@ gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.eventsList7 = function(runtimeScene,
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(eventsFunctionContext.localVariables);
 for (const obj of gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.GDPHObjects1) asyncObjectsList.addObject("PH", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.asyncCallback13084548(runtimeScene, eventsFunctionContext, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.asyncCallback13315172(runtimeScene, eventsFunctionContext, asyncObjectsList)));
 }
 }
 
@@ -241,7 +241,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("PH"), gdjs.evtsExt__Snippet___B
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13084164);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13314788);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("PH"), gdjs.evtsExt__Snippet___BGBlinkPlaceHolders.GDPHObjects1);

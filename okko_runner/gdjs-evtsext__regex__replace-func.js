@@ -1,30 +1,35 @@
 
-if (typeof gdjs.evtsExt__InputValidation__ToAlphanumerical !== "undefined") {
-  gdjs.evtsExt__InputValidation__ToAlphanumerical.registeredGdjsCallbacks.forEach(callback =>
+if (typeof gdjs.evtsExt__RegEx__Replace !== "undefined") {
+  gdjs.evtsExt__RegEx__Replace.registeredGdjsCallbacks.forEach(callback =>
     gdjs._unregisterCallback(callback)
   );
 }
 
-gdjs.evtsExt__InputValidation__ToAlphanumerical = {};
+gdjs.evtsExt__RegEx__Replace = {};
 
 
-gdjs.evtsExt__InputValidation__ToAlphanumerical.userFunc0x982420 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__RegEx__Replace.userFunc0xa0aab0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
-eventsFunctionContext.returnValue = eventsFunctionContext.getArgument("text").replace(/\W/g, '');
+const re = new RegExp(eventsFunctionContext.getArgument("pattern"), eventsFunctionContext.getArgument("flags"));
+/** @type {string} */
+const str = eventsFunctionContext.getArgument("string");
+
+eventsFunctionContext.returnValue = str.replace(re, eventsFunctionContext.getArgument("newString"));
+
 };
-gdjs.evtsExt__InputValidation__ToAlphanumerical.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__RegEx__Replace.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
-gdjs.evtsExt__InputValidation__ToAlphanumerical.userFunc0x982420(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__RegEx__Replace.userFunc0xa0aab0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
 
 };
 
-gdjs.evtsExt__InputValidation__ToAlphanumerical.func = function(runtimeScene, text, parentEventsFunctionContext) {
+gdjs.evtsExt__RegEx__Replace.func = function(runtimeScene, pattern, flags, string, newString, parentEventsFunctionContext) {
 var eventsFunctionContext = {
   _objectsMap: {
 },
@@ -32,8 +37,8 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
-  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("InputValidation"),
-  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("InputValidation"),
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("RegEx"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("RegEx"),
   localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
@@ -72,17 +77,20 @@ parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
     return runtimeScene.getLayer(layerName);
   },
   getArgument: function(argName) {
-if (argName === "text") return text;
+if (argName === "pattern") return pattern;
+if (argName === "flags") return flags;
+if (argName === "string") return string;
+if (argName === "newString") return newString;
     return "";
   },
   getOnceTriggers: function() { return runtimeScene.getOnceTriggers(); }
 };
 
 
-gdjs.evtsExt__InputValidation__ToAlphanumerical.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__RegEx__Replace.eventsList0(runtimeScene, eventsFunctionContext);
 
 
 return "" + eventsFunctionContext.returnValue;
 }
 
-gdjs.evtsExt__InputValidation__ToAlphanumerical.registeredGdjsCallbacks = [];
+gdjs.evtsExt__RegEx__Replace.registeredGdjsCallbacks = [];
