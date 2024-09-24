@@ -220,7 +220,7 @@ isConditionTrue_0 = false;
 {
 gdjs.copyArray(gdjs.DataFormCode.GDFIOInputObjects2, gdjs.DataFormCode.GDFIOInputObjects3);
 
-isConditionTrue_1 = gdjs.evtsExt__RegEx__HasPattern.func(runtimeScene, "^[a-zA-Zа-яА-ЯёЁ0-9.,]+$", "", (( gdjs.DataFormCode.GDFIOInputObjects3.length === 0 ) ? "" :gdjs.DataFormCode.GDFIOInputObjects3[0].getBehavior("Text").getText()), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+isConditionTrue_1 = gdjs.evtsExt__RegEx__HasPattern.func(runtimeScene, "^[a-zA-Zа-яА-ЯёЁ0-9.,!?: ]+$", "", (( gdjs.DataFormCode.GDFIOInputObjects3.length === 0 ) ? "" :gdjs.DataFormCode.GDFIOInputObjects3[0].getBehavior("Text").getText()), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 if(isConditionTrue_1) {
     isConditionTrue_0 = true;
     for (let j = 0, jLen = gdjs.DataFormCode.GDFIOInputObjects3.length; j < jLen ; ++j) {
@@ -254,7 +254,7 @@ isConditionTrue_0 = false;
 {
 gdjs.copyArray(gdjs.DataFormCode.GDJobInputObjects2, gdjs.DataFormCode.GDJobInputObjects3);
 
-isConditionTrue_1 = gdjs.evtsExt__RegEx__HasPattern.func(runtimeScene, "^[a-zA-Zа-яА-ЯёЁ0-9.,]+$", "", (( gdjs.DataFormCode.GDJobInputObjects3.length === 0 ) ? "" :gdjs.DataFormCode.GDJobInputObjects3[0].getBehavior("Text").getText()), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+isConditionTrue_1 = gdjs.evtsExt__RegEx__HasPattern.func(runtimeScene, "^[a-zA-Zа-яА-ЯёЁ0-9.,!?: ]+$", "", (( gdjs.DataFormCode.GDJobInputObjects3.length === 0 ) ? "" :gdjs.DataFormCode.GDJobInputObjects3[0].getBehavior("Text").getText()), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 if(isConditionTrue_1) {
     isConditionTrue_0 = true;
     for (let j = 0, jLen = gdjs.DataFormCode.GDJobInputObjects3.length; j < jLen ; ++j) {
@@ -333,7 +333,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = !(gdjs.evtsExt__RegEx__HasPattern.func(runtimeScene, "^[a-zA-Zа-яА-ЯёЁ0-9.,!?:]+$", "", (( gdjs.DataFormCode.GDFIOInputObjects2.length === 0 ) ? "" :gdjs.DataFormCode.GDFIOInputObjects2[0].getBehavior("Text").getText()), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)));
+isConditionTrue_0 = !(gdjs.evtsExt__RegEx__HasPattern.func(runtimeScene, "^[a-zA-Zа-яА-ЯёЁ0-9.,!?: ]+$", "", (( gdjs.DataFormCode.GDFIOInputObjects2.length === 0 ) ? "" :gdjs.DataFormCode.GDFIOInputObjects2[0].getBehavior("Text").getText()), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 {isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13684220);
@@ -389,7 +389,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = !(gdjs.evtsExt__RegEx__HasPattern.func(runtimeScene, "^[a-zA-Zа-яА-ЯёЁ0-9.,!?:]+$", "", (( gdjs.DataFormCode.GDJobInputObjects1.length === 0 ) ? "" :gdjs.DataFormCode.GDJobInputObjects1[0].getBehavior("Text").getText()), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)));
+isConditionTrue_0 = !(gdjs.evtsExt__RegEx__HasPattern.func(runtimeScene, "^[a-zA-Zа-яА-ЯёЁ0-9.,!?: ]+$", "", (( gdjs.DataFormCode.GDJobInputObjects1.length === 0 ) ? "" :gdjs.DataFormCode.GDJobInputObjects1[0].getBehavior("Text").getText()), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 {isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13690300);
