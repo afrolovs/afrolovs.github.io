@@ -26,7 +26,7 @@ gdjs.evtsExt__Snippet__BGSlideSportPosters.mapOfGDgdjs_9546evtsExt_9595_9595Snip
 gdjs.evtsExt__Snippet__BGSlideSportPosters.mapOfGDgdjs_9546evtsExt_9595_9595Snippet_9595_9595BGSlideSportPosters_9546GDRightObjects3Objects = Hashtable.newFrom({"Right": gdjs.evtsExt__Snippet__BGSlideSportPosters.GDRightObjects3});
 gdjs.evtsExt__Snippet__BGSlideSportPosters.mapOfGDgdjs_9546evtsExt_9595_9595Snippet_9595_9595BGSlideSportPosters_9546GDLeftObjects4Objects = Hashtable.newFrom({"Left": gdjs.evtsExt__Snippet__BGSlideSportPosters.GDLeftObjects4});
 gdjs.evtsExt__Snippet__BGSlideSportPosters.mapOfGDgdjs_9546evtsExt_9595_9595Snippet_9595_9595BGSlideSportPosters_9546GDRightObjects4Objects = Hashtable.newFrom({"Right": gdjs.evtsExt__Snippet__BGSlideSportPosters.GDRightObjects4});
-gdjs.evtsExt__Snippet__BGSlideSportPosters.asyncCallback13330460 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+gdjs.evtsExt__Snippet__BGSlideSportPosters.asyncCallback13501908 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(eventsFunctionContext.localVariables);
 eventsFunctionContext.localVariables.length = 0;
 }
@@ -40,14 +40,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(eventsFunctionContext.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(eventsFunctionContext.localVariables[0].getFromIndex(0).getAsNumber() * 2), (runtimeScene) => (gdjs.evtsExt__Snippet__BGSlideSportPosters.asyncCallback13330460(runtimeScene, eventsFunctionContext, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(eventsFunctionContext.localVariables[0].getFromIndex(0).getAsNumber() * 2), (runtimeScene) => (gdjs.evtsExt__Snippet__BGSlideSportPosters.asyncCallback13501908(runtimeScene, eventsFunctionContext, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.evtsExt__Snippet__BGSlideSportPosters.asyncCallback13329348 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+};gdjs.evtsExt__Snippet__BGSlideSportPosters.asyncCallback13500796 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(eventsFunctionContext.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Left"), gdjs.evtsExt__Snippet__BGSlideSportPosters.GDLeftObjects4);
 
@@ -71,14 +71,14 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(eventsFunctionContext.localVariables);
 for (const obj of gdjs.evtsExt__Snippet__BGSlideSportPosters.GDLeftObjects3) asyncObjectsList.addObject("Left", obj);
 for (const obj of gdjs.evtsExt__Snippet__BGSlideSportPosters.GDRightObjects3) asyncObjectsList.addObject("Right", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(eventsFunctionContext.localVariables[0].getFromIndex(0).getAsNumber()), (runtimeScene) => (gdjs.evtsExt__Snippet__BGSlideSportPosters.asyncCallback13329348(runtimeScene, eventsFunctionContext, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(eventsFunctionContext.localVariables[0].getFromIndex(0).getAsNumber()), (runtimeScene) => (gdjs.evtsExt__Snippet__BGSlideSportPosters.asyncCallback13500796(runtimeScene, eventsFunctionContext, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.evtsExt__Snippet__BGSlideSportPosters.asyncCallback13328868 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+};gdjs.evtsExt__Snippet__BGSlideSportPosters.asyncCallback13500316 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(eventsFunctionContext.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Left"), gdjs.evtsExt__Snippet__BGSlideSportPosters.GDLeftObjects3);
 
@@ -102,14 +102,14 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(eventsFunctionContext.localVariables);
 for (const obj of gdjs.evtsExt__Snippet__BGSlideSportPosters.GDLeftObjects2) asyncObjectsList.addObject("Left", obj);
 for (const obj of gdjs.evtsExt__Snippet__BGSlideSportPosters.GDRightObjects2) asyncObjectsList.addObject("Right", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(eventsFunctionContext.localVariables[0].getFromIndex(0).getAsNumber()), (runtimeScene) => (gdjs.evtsExt__Snippet__BGSlideSportPosters.asyncCallback13328868(runtimeScene, eventsFunctionContext, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(eventsFunctionContext.localVariables[0].getFromIndex(0).getAsNumber()), (runtimeScene) => (gdjs.evtsExt__Snippet__BGSlideSportPosters.asyncCallback13500316(runtimeScene, eventsFunctionContext, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.evtsExt__Snippet__BGSlideSportPosters.asyncCallback13329276 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+};gdjs.evtsExt__Snippet__BGSlideSportPosters.asyncCallback13500724 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(eventsFunctionContext.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Left"), gdjs.evtsExt__Snippet__BGSlideSportPosters.GDLeftObjects2);
 
@@ -132,7 +132,7 @@ const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(eventsFunctionContext.localVariables);
 for (const obj of gdjs.evtsExt__Snippet__BGSlideSportPosters.GDLeftObjects1) asyncObjectsList.addObject("Left", obj);
 for (const obj of gdjs.evtsExt__Snippet__BGSlideSportPosters.GDRightObjects1) asyncObjectsList.addObject("Right", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(eventsFunctionContext.localVariables[0].getFromIndex(0).getAsNumber()), (runtimeScene) => (gdjs.evtsExt__Snippet__BGSlideSportPosters.asyncCallback13329276(runtimeScene, eventsFunctionContext, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(eventsFunctionContext.localVariables[0].getFromIndex(0).getAsNumber()), (runtimeScene) => (gdjs.evtsExt__Snippet__BGSlideSportPosters.asyncCallback13500724(runtimeScene, eventsFunctionContext, asyncObjectsList)));
 }
 }
 
@@ -160,7 +160,7 @@ eventsFunctionContext.localVariables.push(variables);
 }
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13329036);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13500484);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("Left"), gdjs.evtsExt__Snippet__BGSlideSportPosters.GDLeftObjects1);

@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__Share__Share !== "undefined") {
 gdjs.evtsExt__Share__Share = {};
 
 
-gdjs.evtsExt__Share__Share.userFunc0xa0aab0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Share__Share.userFunc0xa58e60 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 gdjs._shareExtension = gdjs._shareExtension || {
     lastShareResult: '',
@@ -41,7 +41,7 @@ gdjs.evtsExt__Share__Share.eventsList0 = function(runtimeScene, eventsFunctionCo
 {
 
 
-gdjs.evtsExt__Share__Share.userFunc0xa0aab0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Share__Share.userFunc0xa58e60(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

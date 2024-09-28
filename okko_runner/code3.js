@@ -46,7 +46,7 @@ gdjs.DataFormCode.GDProgressObjects3= [];
 gdjs.DataFormCode.GDProgressObjects4= [];
 
 
-gdjs.DataFormCode.asyncCallback13677036 = function (runtimeScene, asyncObjectsList) {
+gdjs.DataFormCode.asyncCallback13877948 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.DataFormCode.localVariables);
 gdjs.DataFormCode.localVariables.length = 0;
 }
@@ -59,7 +59,7 @@ gdjs.DataFormCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.DataFormCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtsExt__AdvancedHTTP__ExecuteRequest.func(runtimeScene, "next", runtimeScene.getScene().getVariables().get("HTTP"), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)), (runtimeScene) => (gdjs.DataFormCode.asyncCallback13677036(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtsExt__AdvancedHTTP__ExecuteRequest.func(runtimeScene, "next", runtimeScene.getScene().getVariables().get("HTTP"), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)), (runtimeScene) => (gdjs.DataFormCode.asyncCallback13877948(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -67,7 +67,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtsExt__AdvancedHTTP__ExecuteR
 
 
 };gdjs.DataFormCode.mapOfGDgdjs_9546DataFormCode_9546GDProgressObjects2Objects = Hashtable.newFrom({"Progress": gdjs.DataFormCode.GDProgressObjects2});
-gdjs.DataFormCode.asyncCallback13679852 = function (runtimeScene, asyncObjectsList) {
+gdjs.DataFormCode.asyncCallback13880764 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.DataFormCode.localVariables);
 {runtimeScene.getGame().getVariables().getFromIndex(4).setBoolean(true);
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Main Menu", true);
@@ -82,7 +82,7 @@ gdjs.DataFormCode.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.DataFormCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.6), (runtimeScene) => (gdjs.DataFormCode.asyncCallback13679852(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.6), (runtimeScene) => (gdjs.DataFormCode.asyncCallback13880764(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -137,7 +137,7 @@ gdjs.copyArray(gdjs.DataFormCode.GDJobInputObjects3_1final, gdjs.DataFormCode.GD
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13673444);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13874356);
 }
 }
 if (isConditionTrue_0) {
@@ -157,7 +157,7 @@ gdjs.DataFormCode.eventsList0(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13677596);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13878508);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("BG"), gdjs.DataFormCode.GDBGObjects2);
@@ -282,7 +282,7 @@ gdjs.copyArray(gdjs.DataFormCode.GDJobInputObjects2_1final, gdjs.DataFormCode.GD
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13069628);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13871452);
 }
 }
 }
@@ -307,7 +307,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13681140);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13882052);
 }
 }
 if (isConditionTrue_0) {
@@ -336,7 +336,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtsExt__RegEx__HasPattern.func(runtimeScene, "^[a-zA-Zа-яА-ЯёЁ0-9.,!?: ]+$", "", (( gdjs.DataFormCode.GDFIOInputObjects2.length === 0 ) ? "" :gdjs.DataFormCode.GDFIOInputObjects2[0].getBehavior("Text").getText()), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13684220);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13885932);
 }
 }
 }
@@ -363,7 +363,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13687156);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13888836);
 }
 }
 if (isConditionTrue_0) {
@@ -392,7 +392,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtsExt__RegEx__HasPattern.func(runtimeScene, "^[a-zA-Zа-яА-ЯёЁ0-9.,!?: ]+$", "", (( gdjs.DataFormCode.GDJobInputObjects1.length === 0 ) ? "" :gdjs.DataFormCode.GDJobInputObjects1[0].getBehavior("Text").getText()), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13690300);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13892780);
 }
 }
 }
@@ -416,7 +416,7 @@ gdjs.copyArray(runtimeScene.getObjects("JobErrorText"), gdjs.DataFormCode.GDJobE
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13664292);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13861204);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("CloseButton"), gdjs.DataFormCode.GDCloseButtonObjects1);

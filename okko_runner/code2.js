@@ -20,7 +20,7 @@ gdjs.LoginFormCode.GDProgressObjects2= [];
 gdjs.LoginFormCode.GDProgressObjects3= [];
 
 
-gdjs.LoginFormCode.asyncCallback13642580 = function (runtimeScene, asyncObjectsList) {
+gdjs.LoginFormCode.asyncCallback13835516 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.LoginFormCode.localVariables);
 gdjs.LoginFormCode.localVariables.length = 0;
 }
@@ -33,7 +33,7 @@ gdjs.LoginFormCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.LoginFormCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtsExt__AdvancedHTTP__ExecuteRequest.func(runtimeScene, "load", runtimeScene.getScene().getVariables().get("HTTP"), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)), (runtimeScene) => (gdjs.LoginFormCode.asyncCallback13642580(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtsExt__AdvancedHTTP__ExecuteRequest.func(runtimeScene, "load", runtimeScene.getScene().getVariables().get("HTTP"), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)), (runtimeScene) => (gdjs.LoginFormCode.asyncCallback13835516(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -41,7 +41,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtsExt__AdvancedHTTP__ExecuteR
 
 
 };gdjs.LoginFormCode.mapOfGDgdjs_9546LoginFormCode_9546GDProgressObjects2Objects = Hashtable.newFrom({"Progress": gdjs.LoginFormCode.GDProgressObjects2});
-gdjs.LoginFormCode.asyncCallback13646276 = function (runtimeScene, asyncObjectsList) {
+gdjs.LoginFormCode.asyncCallback13837748 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.LoginFormCode.localVariables);
 {runtimeScene.getGame().getVariables().getFromIndex(4).setBoolean(true);
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "DataForm", true);
@@ -56,7 +56,7 @@ gdjs.LoginFormCode.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.LoginFormCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.6), (runtimeScene) => (gdjs.LoginFormCode.asyncCallback13646276(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.6), (runtimeScene) => (gdjs.LoginFormCode.asyncCallback13837748(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -74,7 +74,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtsExt__InputValidation__IsValidEmail.func(runtimeScene, (( gdjs.LoginFormCode.GDNameInputObjects2.length === 0 ) ? "" :gdjs.LoginFormCode.GDNameInputObjects2[0].getBehavior("Text").getText()), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13643260);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13836268);
 }
 }
 if (isConditionTrue_0) {
@@ -115,7 +115,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtsExt__InputValidation__IsValidEmail.func(runtimeScene, (( gdjs.LoginFormCode.GDNameInputObjects1.length === 0 ) ? "" :gdjs.LoginFormCode.GDNameInputObjects1[0].getBehavior("Text").getText()), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13643132);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13838620);
 }
 }
 if (isConditionTrue_0) {
@@ -135,7 +135,7 @@ gdjs.copyArray(runtimeScene.getObjects("ErrorText"), gdjs.LoginFormCode.GDErrorT
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13640516);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13833300);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("ErrorText"), gdjs.LoginFormCode.GDErrorTextObjects1);
