@@ -30,7 +30,7 @@ gdjs.evtsExt__Snippet___BGSlideKidsPosters.eventsList0 = function(runtimeScene, 
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13513572);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13515292);
 }
 if (isConditionTrue_0) {
 gdjs.evtsExt__Snippet___BGSlideKidsPosters.GDLeftObjects1.length = 0;
