@@ -1,0 +1,85 @@
+{
+  "android": {
+    "default": "mobile_11",
+    "versions": {
+      "mobile_11": {
+        "image": "your_commited_image",
+        "port": "4444",
+        "path": "/wd/hub",
+        "volumes": [
+          "/etc/selenoid/builds:/builds",
+          "/etc/selenoid/scripts:/scripts"
+        ],
+        "env": [
+          "APPIUM_ARGS=--log-level info --log-timestamp"
+        ],
+        "sessionTimeout": "5m"
+      },
+      "mobile_12": {
+        "image": "your_commited_image",
+        "port": "4444",
+        "path": "/wd/hub",
+        "volumes": [
+          "/etc/selenoid/builds:/builds",
+          "/etc/selenoid/scripts:/scripts"
+        ],
+        "env": [
+          "APPIUM_ARGS=--log-level info --log-timestamp"
+        ],
+        "sessionTimeout": "5m"
+      },
+      "mobile_13": {
+        "image": "your_commited_image",
+        "port": "4444",
+        "path": "/wd/hub",
+        "volumes": [
+          "/etc/selenoid/builds:/builds",
+          "/etc/selenoid/scripts:/scripts"
+        ],
+        "env": [
+          "APPIUM_ARGS=--log-level info --log-timestamp"
+        ],
+        "sessionTimeout": "5m"
+      },
+      "mobile_14": {
+        "image": "your_commited_image",
+        "port": "4444",
+        "path": "/wd/hub",
+        "volumes": [
+          "/etc/selenoid/builds:/builds",
+          "/etc/selenoid/scripts:/scripts"
+        ],
+        "env": [
+          "APPIUM_ARGS=--log-level info --log-timestamp"
+        ],
+        "sessionTimeout": "5m"
+      },
+      "tablet_11": {
+        "image": "your_commited_image",
+        "port": "4444",
+        "path": "/wd/hub",
+        "volumes": [
+          "/etc/selenoid/builds:/builds",
+          "/etc/selenoid/scripts:/scripts"
+        ],
+        "env": [
+          "APPIUM_ARGS=--log-level info --log-timestamp"
+        ],
+        "sessionTimeout": "5m"
+      },
+      "atv_9": {
+        "image": "your_commited_image",
+        "port": "4444",
+        "path": "/wd/hub",
+        "volumes": [
+          "/etc/selenoid/builds:/builds",
+          "/etc/selenoid/scripts:/scripts"
+        ],
+        "env": [
+          "APPIUM_ARGS=--log-level info --log-timestamp"
+        ],
+        "sessionTimeout": "5m"
+      }
+    }
+  }
+}

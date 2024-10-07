@@ -1,0 +1,29 @@
+# Динамическая подготовка устройства
+
+adb shell wm density $1 # передаём плотность пикселей как аргумент
+adb shell wm size $2 # передаём разрешение экрана как аргумент
+adb shell settings put system user_rotation 3 # 0-3 - крутим экран под определенный набор тестов
+
+# Выключаем анимации, клавиатуры и автозаполнение данных, включаем отображение тапов
+adb shell settings put global development_settings_enabled 1
+adb shell settings put global http_proxy my_proxy_url:3128
+adb shell settings put global global_http_proxy_exclusion_list okko-not-prod.ru,okko.tv
+adb shell settings put global window_animation_scale 0.0
+adb shell settings put global transition_animation_scale 0.0
+adb shell settings put global animation_duration_scale 0.0
+adb shell settings put global network_recommendations_enabled 0
+adb shell settings put secure autofill_service null
+adb shell settings put secure spell_checker_enabled 0
+adb shell settings put secure show_ime_with_hard_keyboard 0
+adb shell settings put system pointer_location 1
+
+# Убираем нижний бар и выставляем русскую локаль (работает с 9 по 14 Android)
+adb shell cmd overlay enable com.android.internal.systemui.navbar.gestural
+adb shell content insert --uri content://settings/system --bind name:s:system_locales --bind value:s:ru-RU,en-US
+
+# Выключаем приветственный экран в мобильном хроме
+adb shell am set-debug-app --persistent com.android.chrome
+adb shell 'echo "chrome --disable-fre --no-default-browser-check --no-first-run" > /data/local/tmp/chrome-command-line'
+
+# Если вы не нашли здесь нужную команду, гляньте ещё вот тут:
+# https://www.automatetheplanet.com/adb-cheat-sheet/
