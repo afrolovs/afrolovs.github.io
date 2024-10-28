@@ -11,7 +11,7 @@ gdjs.evtsExt__Snippet___RenderCountdown.GDCountdownObjects2= [];
 
 
 gdjs.evtsExt__Snippet___RenderCountdown.mapOfGDgdjs_9546evtsExt_9595_9595Snippet_9595_9595_9595RenderCountdown_9546GDCountdownObjects1Objects = Hashtable.newFrom({"Countdown": gdjs.evtsExt__Snippet___RenderCountdown.GDCountdownObjects1});
-gdjs.evtsExt__Snippet___RenderCountdown.asyncCallback13527268 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+gdjs.evtsExt__Snippet___RenderCountdown.asyncCallback13545188 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(eventsFunctionContext.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Countdown"), gdjs.evtsExt__Snippet___RenderCountdown.GDCountdownObjects2);
 
@@ -33,7 +33,7 @@ gdjs.evtsExt__Snippet___RenderCountdown.eventsList0 = function(runtimeScene, eve
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(eventsFunctionContext.localVariables);
 for (const obj of gdjs.evtsExt__Snippet___RenderCountdown.GDCountdownObjects1) asyncObjectsList.addObject("Countdown", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.evtsExt__Snippet___RenderCountdown.asyncCallback13527268(runtimeScene, eventsFunctionContext, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.evtsExt__Snippet___RenderCountdown.asyncCallback13545188(runtimeScene, eventsFunctionContext, asyncObjectsList)));
 }
 }
 
@@ -47,7 +47,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13525692);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13543612);
 }
 if (isConditionTrue_0) {
 gdjs.evtsExt__Snippet___RenderCountdown.GDCountdownObjects1.length = 0;

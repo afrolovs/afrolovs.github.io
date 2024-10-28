@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__Share__IsSharingSupported !== "undefined") {
 gdjs.evtsExt__Share__IsSharingSupported = {};
 
 
-gdjs.evtsExt__Share__IsSharingSupported.userFunc0xa42c80 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Share__IsSharingSupported.userFunc0xc08440 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = !!navigator.share;
 };
@@ -17,7 +17,7 @@ gdjs.evtsExt__Share__IsSharingSupported.eventsList0 = function(runtimeScene, eve
 {
 
 
-gdjs.evtsExt__Share__IsSharingSupported.userFunc0xa42c80(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Share__IsSharingSupported.userFunc0xc08440(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
