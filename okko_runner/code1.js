@@ -423,7 +423,7 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.network.sendAsyncRequest("http://94.19.199.219:5000/play", "", "GET", "", gdjs.VariablesContainer.badVariable, gdjs.VariablesContainer.badVariable);
+{gdjs.evtTools.network.sendAsyncRequest("https://okko.vernosti.keenetic.pro/play", "", "GET", "", gdjs.VariablesContainer.badVariable, gdjs.VariablesContainer.badVariable);
 }{runtimeScene.getGame().getVariables().getFromIndex(8).setNumber(runtimeScene.getGame().getVariables().getFromIndex(0).getAsNumber());
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(4).setBoolean(false);
@@ -544,7 +544,7 @@ gdjs.copyArray(runtimeScene.getObjects("ShareHint"), gdjs.Main_32MenuCode.GDShar
 }{for(var i = 0, len = gdjs.Main_32MenuCode.GDShareHintObjects1.length ;i < len;++i) {
     gdjs.Main_32MenuCode.GDShareHintObjects1[i].getBehavior("Text").setText("Отправляем данные...");
 }
-}{gdjs.evtTools.network.sendAsyncRequest("http://94.19.199.219:5000/submit?name=" + runtimeScene.getGame().getVariables().getFromIndex(1).getAsString() + "&score=" + runtimeScene.getGame().getVariables().getFromIndex(0).getAsString() + "&id=player" + gdjs.evtTools.common.toString(gdjs.evtTools.string.strLen(runtimeScene.getGame().getVariables().getFromIndex(5).getAsString()) + 4096) + "&fio=" + runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() + "&job=" + runtimeScene.getGame().getVariables().getFromIndex(2).getAsString(), "", "GET", "", gdjs.VariablesContainer.badVariable, runtimeScene.getScene().getVariables().getFromIndex(1));
+}{gdjs.evtTools.network.sendAsyncRequest("https://okko.vernosti.keenetic.pro/submit?name=" + runtimeScene.getGame().getVariables().getFromIndex(1).getAsString() + "&score=" + runtimeScene.getGame().getVariables().getFromIndex(0).getAsString() + "&id=player" + gdjs.evtTools.common.toString(gdjs.evtTools.string.strLen(runtimeScene.getGame().getVariables().getFromIndex(5).getAsString()) + 4096) + "&fio=" + runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() + "&job=" + runtimeScene.getGame().getVariables().getFromIndex(2).getAsString(), "", "GET", "", gdjs.VariablesContainer.badVariable, runtimeScene.getScene().getVariables().getFromIndex(1));
 }{for(var i = 0, len = gdjs.Main_32MenuCode.GDShareHintObjects1.length ;i < len;++i) {
     gdjs.Main_32MenuCode.GDShareHintObjects1[i].getBehavior("Text").setText("Ваш рекорд зафиксирован!");
 }
@@ -569,7 +569,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("ShareHint"), gdjs.Main_32MenuCode.GDShareHintObjects1);
-{gdjs.evtTools.network.sendAsyncRequest("http://94.19.199.219:5000/submit?name=" + runtimeScene.getGame().getVariables().getFromIndex(1).getAsString() + "&score=" + runtimeScene.getGame().getVariables().getFromIndex(0).getAsString() + "&id=player" + gdjs.evtTools.common.toString(gdjs.evtTools.string.strLen(runtimeScene.getGame().getVariables().getFromIndex(5).getAsString()) + 4096) + "&fio=" + runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() + "&job=" + runtimeScene.getGame().getVariables().getFromIndex(2).getAsString(), "", "GET", "", gdjs.VariablesContainer.badVariable, runtimeScene.getScene().getVariables().getFromIndex(1));
+{gdjs.evtTools.network.sendAsyncRequest("https://okko.vernosti.keenetic.pro/submit?name=" + runtimeScene.getGame().getVariables().getFromIndex(1).getAsString() + "&score=" + runtimeScene.getGame().getVariables().getFromIndex(0).getAsString() + "&id=player" + gdjs.evtTools.common.toString(gdjs.evtTools.string.strLen(runtimeScene.getGame().getVariables().getFromIndex(5).getAsString()) + 4096) + "&fio=" + runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() + "&job=" + runtimeScene.getGame().getVariables().getFromIndex(2).getAsString(), "", "GET", "", gdjs.VariablesContainer.badVariable, runtimeScene.getScene().getVariables().getFromIndex(1));
 }{gdjs.evtsExt__AdvancedHTTP__SetRequestURL.func(runtimeScene, "https://okko.vernosti.keenetic.pro/submit?name=" + runtimeScene.getGame().getVariables().getFromIndex(1).getAsString() + "&score=" + runtimeScene.getGame().getVariables().getFromIndex(0).getAsString() + "&id=player" + gdjs.evtTools.common.toString(gdjs.evtTools.string.strLen(runtimeScene.getGame().getVariables().getFromIndex(5).getAsString()) + 4096) + "&fio=" + runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() + "&job=" + runtimeScene.getGame().getVariables().getFromIndex(2).getAsString(), "stats", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }{for(var i = 0, len = gdjs.Main_32MenuCode.GDShareHintObjects1.length ;i < len;++i) {
     gdjs.Main_32MenuCode.GDShareHintObjects1[i].getBehavior("Text").setText("");
