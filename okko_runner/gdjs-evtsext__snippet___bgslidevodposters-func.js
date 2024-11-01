@@ -21,7 +21,7 @@ gdjs.evtsExt__Snippet___BGSlideVODPosters.eventsList0 = function(runtimeScene, e
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13498100);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13521028);
 }
 if (isConditionTrue_0) {
 gdjs.evtsExt__Snippet___BGSlideVODPosters.GDLeftObjects1.length = 0;

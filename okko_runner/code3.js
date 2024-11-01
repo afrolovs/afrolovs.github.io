@@ -46,9 +46,12 @@ gdjs.DataFormCode.GDProgressObjects3= [];
 gdjs.DataFormCode.GDProgressObjects4= [];
 
 
-gdjs.DataFormCode.asyncCallback13879788 = function (runtimeScene, asyncObjectsList) {
+gdjs.DataFormCode.mapOfGDgdjs_9546DataFormCode_9546GDProgressObjects2Objects = Hashtable.newFrom({"Progress": gdjs.DataFormCode.GDProgressObjects2});
+gdjs.DataFormCode.asyncCallback13912188 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.DataFormCode.localVariables);
-gdjs.DataFormCode.localVariables.length = 0;
+{runtimeScene.getGame().getVariables().getFromIndex(4).setBoolean(true);
+}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Main Menu", true);
+}gdjs.DataFormCode.localVariables.length = 0;
 }
 gdjs.DataFormCode.eventsList0 = function(runtimeScene) {
 
@@ -59,37 +62,14 @@ gdjs.DataFormCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.DataFormCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtsExt__AdvancedHTTP__ExecuteRequest.func(runtimeScene, "next", runtimeScene.getScene().getVariables().get("HTTP"), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)), (runtimeScene) => (gdjs.DataFormCode.asyncCallback13879788(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.6), (runtimeScene) => (gdjs.DataFormCode.asyncCallback13912188(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.DataFormCode.mapOfGDgdjs_9546DataFormCode_9546GDProgressObjects2Objects = Hashtable.newFrom({"Progress": gdjs.DataFormCode.GDProgressObjects2});
-gdjs.DataFormCode.asyncCallback13882604 = function (runtimeScene, asyncObjectsList) {
-asyncObjectsList.restoreLocalVariablesContainers(gdjs.DataFormCode.localVariables);
-{runtimeScene.getGame().getVariables().getFromIndex(4).setBoolean(true);
-}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Main Menu", true);
-}gdjs.DataFormCode.localVariables.length = 0;
-}
-gdjs.DataFormCode.eventsList1 = function(runtimeScene) {
-
-{
-
-
-{
-{
-const asyncObjectsList = new gdjs.LongLivedObjectsList();
-asyncObjectsList.backupLocalVariablesContainers(gdjs.DataFormCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.6), (runtimeScene) => (gdjs.DataFormCode.asyncCallback13882604(runtimeScene, asyncObjectsList)));
-}
-}
-
-}
-
-
-};gdjs.DataFormCode.eventsList2 = function(runtimeScene) {
+};gdjs.DataFormCode.eventsList1 = function(runtimeScene) {
 
 {
 
@@ -137,17 +117,12 @@ gdjs.copyArray(gdjs.DataFormCode.GDJobInputObjects3_1final, gdjs.DataFormCode.GD
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13876196);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13905780);
 }
 }
 if (isConditionTrue_0) {
-{gdjs.evtsExt__AdvancedHTTP__CreateRequest.func(runtimeScene, "next", "https://okko.vernosti.keenetic.link/next", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}{gdjs.evtsExt__AdvancedHTTP__UseCORSBypass.func(runtimeScene, "next", true, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}{gdjs.evtsExt__AdvancedHTTP__SetRequestMethod.func(runtimeScene, "next", "GET", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}
-{ //Subevents
-gdjs.DataFormCode.eventsList0(runtimeScene);} //End of subevents
-}
+{gdjs.evtTools.network.sendAsyncRequest("http://94.19.199.219:5000/next", "", "GET", "", gdjs.VariablesContainer.badVariable, gdjs.VariablesContainer.badVariable);
+}}
 
 }
 
@@ -157,7 +132,7 @@ gdjs.DataFormCode.eventsList0(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13880348);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13909932);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("BG"), gdjs.DataFormCode.GDBGObjects2);
@@ -191,13 +166,13 @@ gdjs.DataFormCode.GDProgressObjects2.length = 0;
 }
 }
 { //Subevents
-gdjs.DataFormCode.eventsList1(runtimeScene);} //End of subevents
+gdjs.DataFormCode.eventsList0(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.DataFormCode.eventsList3 = function(runtimeScene) {
+};gdjs.DataFormCode.eventsList2 = function(runtimeScene) {
 
 {
 
@@ -282,7 +257,7 @@ gdjs.copyArray(gdjs.DataFormCode.GDJobInputObjects2_1final, gdjs.DataFormCode.GD
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13873292);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13902876);
 }
 }
 }
@@ -291,7 +266,7 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.DataFormCode.eventsList2(runtimeScene);} //End of subevents
+gdjs.DataFormCode.eventsList1(runtimeScene);} //End of subevents
 }
 
 }
@@ -307,7 +282,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13883892);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13913476);
 }
 }
 if (isConditionTrue_0) {
@@ -336,7 +311,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtsExt__RegEx__HasPattern.func(runtimeScene, "^[a-zA-Zа-яА-ЯёЁ0-9.,!?: ]+$", "", (( gdjs.DataFormCode.GDFIOInputObjects2.length === 0 ) ? "" :gdjs.DataFormCode.GDFIOInputObjects2[0].getBehavior("Text").getText()), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13887772);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13917356);
 }
 }
 }
@@ -363,7 +338,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13890676);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13920260);
 }
 }
 if (isConditionTrue_0) {
@@ -392,7 +367,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtsExt__RegEx__HasPattern.func(runtimeScene, "^[a-zA-Zа-яА-ЯёЁ0-9.,!?: ]+$", "", (( gdjs.DataFormCode.GDJobInputObjects1.length === 0 ) ? "" :gdjs.DataFormCode.GDJobInputObjects1[0].getBehavior("Text").getText()), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13894620);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13924204);
 }
 }
 }
@@ -409,14 +384,14 @@ gdjs.copyArray(runtimeScene.getObjects("JobErrorText"), gdjs.DataFormCode.GDJobE
 }
 
 
-};gdjs.DataFormCode.eventsList4 = function(runtimeScene) {
+};gdjs.DataFormCode.eventsList3 = function(runtimeScene) {
 
 {
 
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13863044);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13892628);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("CloseButton"), gdjs.DataFormCode.GDCloseButtonObjects1);
@@ -461,7 +436,7 @@ gdjs.DataFormCode.GDNextButtonObjects1.length = k;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.DataFormCode.eventsList3(runtimeScene);} //End of subevents
+gdjs.DataFormCode.eventsList2(runtimeScene);} //End of subevents
 }
 
 }
@@ -481,6 +456,11 @@ for (var i = 0, k = 0, l = gdjs.DataFormCode.GDPDButtonObjects1.length;i<l;++i) 
     }
 }
 gdjs.DataFormCode.GDPDButtonObjects1.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12808660);
+}
+}
 if (isConditionTrue_0) {
 {gdjs.evtTools.window.openURL("https://afrolovs.github.io/okko_runner/pd.html", runtimeScene);
 }}
@@ -502,6 +482,11 @@ for (var i = 0, k = 0, l = gdjs.DataFormCode.GDCloseButtonObjects1.length;i<l;++
     }
 }
 gdjs.DataFormCode.GDCloseButtonObjects1.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14974380);
+}
+}
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "LoginForm", true);
 }}
@@ -551,7 +536,7 @@ gdjs.DataFormCode.GDProgressObjects2.length = 0;
 gdjs.DataFormCode.GDProgressObjects3.length = 0;
 gdjs.DataFormCode.GDProgressObjects4.length = 0;
 
-gdjs.DataFormCode.eventsList4(runtimeScene);
+gdjs.DataFormCode.eventsList3(runtimeScene);
 gdjs.DataFormCode.GDBGObjects1.length = 0;
 gdjs.DataFormCode.GDBGObjects2.length = 0;
 gdjs.DataFormCode.GDBGObjects3.length = 0;

@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__RegEx__Find !== "undefined") {
 gdjs.evtsExt__RegEx__Find = {};
 
 
-gdjs.evtsExt__RegEx__Find.userFunc0xc47f40 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__RegEx__Find.userFunc0xc09570 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const re = new RegExp(eventsFunctionContext.getArgument("pattern"), eventsFunctionContext.getArgument("flags"));
 /** @type {string} */
@@ -22,7 +22,7 @@ gdjs.evtsExt__RegEx__Find.eventsList0 = function(runtimeScene, eventsFunctionCon
 {
 
 
-gdjs.evtsExt__RegEx__Find.userFunc0xc47f40(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__RegEx__Find.userFunc0xc09570(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
