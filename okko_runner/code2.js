@@ -130,7 +130,7 @@ gdjs.copyArray(runtimeScene.getObjects("PDButton"), gdjs.LoginFormCode.GDPDButto
 }{for(var i = 0, len = gdjs.LoginFormCode.GDErrorTextObjects1.length ;i < len;++i) {
     gdjs.LoginFormCode.GDErrorTextObjects1[i].getBehavior("Opacity").setOpacity(0);
 }
-}{gdjs.evtTools.network.sendAsyncRequest("http://94.19.199.219:5000/load", "", "GET", "", gdjs.VariablesContainer.badVariable, gdjs.VariablesContainer.badVariable);
+}{gdjs.evtTools.network.sendAsyncRequest("https://okko.vernosti.keenetic.pro/load", "", "GET", "", gdjs.VariablesContainer.badVariable, gdjs.VariablesContainer.badVariable);
 }}
 
 }
