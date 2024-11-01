@@ -10,7 +10,7 @@ gdjs.BadPerfomanceCode.GDProgressObjects1= [];
 gdjs.BadPerfomanceCode.GDProgressObjects2= [];
 
 
-gdjs.BadPerfomanceCode.asyncCallback13922012 = function (runtimeScene, asyncObjectsList) {
+gdjs.BadPerfomanceCode.asyncCallback13935028 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.BadPerfomanceCode.localVariables);
 gdjs.BadPerfomanceCode.localVariables.length = 0;
 }
@@ -23,7 +23,7 @@ gdjs.BadPerfomanceCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.BadPerfomanceCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtsExt__Share__Share.func(runtimeScene, "Передайте ссылку на игру на другое устройство:", "https://afrolovs.github.io/okko_runner/", "Передайте ссылку на игру на другое устройство", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)), (runtimeScene) => (gdjs.BadPerfomanceCode.asyncCallback13922012(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtsExt__Share__Share.func(runtimeScene, "Передайте ссылку на игру на другое устройство:", "https://afrolovs.github.io/okko_runner/", "Передайте ссылку на игру на другое устройство", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)), (runtimeScene) => (gdjs.BadPerfomanceCode.asyncCallback13935028(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -48,7 +48,7 @@ for (var i = 0, k = 0, l = gdjs.BadPerfomanceCode.GDTransparentButtonObjects1.le
 gdjs.BadPerfomanceCode.GDTransparentButtonObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13917588);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13934036);
 }
 }
 if (isConditionTrue_0) {

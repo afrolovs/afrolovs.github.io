@@ -48,7 +48,7 @@ gdjs.evtsExt__Snippet__BGLoadAnimation.eventsList0 = function(runtimeScene, even
 }
 
 
-};gdjs.evtsExt__Snippet__BGLoadAnimation.asyncCallback13502132 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+};gdjs.evtsExt__Snippet__BGLoadAnimation.asyncCallback13507140 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(eventsFunctionContext.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Counter"), gdjs.evtsExt__Snippet__BGLoadAnimation.GDCounterObjects5);
 
@@ -69,14 +69,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(eventsFunctionContext.localVariables);
 for (const obj of gdjs.evtsExt__Snippet__BGLoadAnimation.GDCounterObjects4) asyncObjectsList.addObject("Counter", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.evtsExt__Snippet__BGLoadAnimation.asyncCallback13502132(runtimeScene, eventsFunctionContext, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.evtsExt__Snippet__BGLoadAnimation.asyncCallback13507140(runtimeScene, eventsFunctionContext, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.evtsExt__Snippet__BGLoadAnimation.asyncCallback13502060 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+};gdjs.evtsExt__Snippet__BGLoadAnimation.asyncCallback13507068 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(eventsFunctionContext.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Counter"), gdjs.evtsExt__Snippet__BGLoadAnimation.GDCounterObjects4);
 
@@ -97,14 +97,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(eventsFunctionContext.localVariables);
 for (const obj of gdjs.evtsExt__Snippet__BGLoadAnimation.GDCounterObjects3) asyncObjectsList.addObject("Counter", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.evtsExt__Snippet__BGLoadAnimation.asyncCallback13502060(runtimeScene, eventsFunctionContext, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.evtsExt__Snippet__BGLoadAnimation.asyncCallback13507068(runtimeScene, eventsFunctionContext, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.evtsExt__Snippet__BGLoadAnimation.asyncCallback13501628 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+};gdjs.evtsExt__Snippet__BGLoadAnimation.asyncCallback13506636 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(eventsFunctionContext.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Counter"), gdjs.evtsExt__Snippet__BGLoadAnimation.GDCounterObjects3);
 
@@ -125,14 +125,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(eventsFunctionContext.localVariables);
 for (const obj of gdjs.evtsExt__Snippet__BGLoadAnimation.GDCounterObjects2) asyncObjectsList.addObject("Counter", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.evtsExt__Snippet__BGLoadAnimation.asyncCallback13501628(runtimeScene, eventsFunctionContext, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.evtsExt__Snippet__BGLoadAnimation.asyncCallback13506636(runtimeScene, eventsFunctionContext, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.evtsExt__Snippet__BGLoadAnimation.asyncCallback13500444 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+};gdjs.evtsExt__Snippet__BGLoadAnimation.asyncCallback13505452 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(eventsFunctionContext.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("BG"), gdjs.evtsExt__Snippet__BGLoadAnimation.GDBGObjects2);
 
@@ -158,7 +158,7 @@ gdjs.evtsExt__Snippet__BGLoadAnimation.eventsList4 = function(runtimeScene, even
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(eventsFunctionContext.localVariables);
 for (const obj of gdjs.evtsExt__Snippet__BGLoadAnimation.GDBGObjects1) asyncObjectsList.addObject("BG", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.evtsExt__Snippet__BGLoadAnimation.asyncCallback13500444(runtimeScene, eventsFunctionContext, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.evtsExt__Snippet__BGLoadAnimation.asyncCallback13505452(runtimeScene, eventsFunctionContext, asyncObjectsList)));
 }
 }
 
@@ -172,7 +172,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), 
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13500028);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13505036);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("BG"), gdjs.evtsExt__Snippet__BGLoadAnimation.GDBGObjects1);
