@@ -125,7 +125,6 @@ RUN \
 	rm /opt/android-sdk-linux/system-images/$PLATFORM/$EMULATOR_IMAGE_TYPE/"$ANDROID_ABI"/userdata.img
 
 # Выносим из образа entrypoint.sh, чтобы можно было управлять загрузкой эмулятора из Selenoid
-# пример такого скрипта - в соседнем файле (entrypoint.sh)
 # ls /scripts - используется для корректного монтирования volume (без него файл иногда не читается)
 
 ENV AVD_NAME=${AVD_NAME}
