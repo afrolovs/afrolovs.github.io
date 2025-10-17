@@ -262,12 +262,13 @@ async def delete_session(session_id: str):
     return JSONResponse(content={"value": None}, status_code=200)
 
 
-@app.get("/status")
+@app.get("/")
 async def get_status():
     """
-    Статус прокси сервера
+    Ручка для отслеживания статуса нашего прокси сервера
+
     Не указана в слайдах, но добавлена для мониторинга состояния
-    сервера и отладки
+    сервера и отладки: http://127.0.0.1:4444/
     """
     return JSONResponse(
         content={
